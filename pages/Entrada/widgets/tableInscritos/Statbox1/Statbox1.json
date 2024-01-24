@@ -7,8 +7,8 @@
     "displayName": "Stats Box",
     "iconSVG": "https://appcdn.appsmith.com/static/media/icon.182a90a0c52d97288bf067cc9c4186d4.svg",
     "searchTags": ["statbox"],
-    "topRow": 11,
-    "bottomRow": 27,
+    "topRow": 13.100000000000001,
+    "bottomRow": 24.300000000000004,
     "parentRowSpace": 10,
     "type": "STATBOX_WIDGET",
     "hideCard": false,
@@ -28,19 +28,21 @@
         "widgetName": "Canvas6",
         "displayName": "Canvas",
         "topRow": 0,
-        "bottomRow": 160,
+        "bottomRow": 112.00000000000003,
         "parentRowSpace": 1,
         "type": "CANVAS_WIDGET",
         "canExtend": false,
         "hideCard": true,
-        "minHeight": 140,
+        "minHeight": 100,
         "mobileRightColumn": 409.5,
+        "useAutoLayout": true,
         "parentColumnSpace": 1,
         "leftColumn": 0,
         "dynamicBindingPathList": [
             {"key": "borderRadius"},
             {"key": "boxShadow"}
         ],
+        "positioning": "vertical",
         "key": "upfz9bu9q4",
         "isDeprecated": false,
         "rightColumn": 409.5,
@@ -60,7 +62,16 @@
         "mobileLeftColumn": 0,
         "maxDynamicHeight": 9000,
         "minDynamicHeight": 4,
-        "flexLayers": []
+        "flexLayers": [
+            {"children": [{
+                "id": "g1umkz91np",
+                "align": "start"
+            }]},
+            {"children": [{
+                "id": "58xbowxwss",
+                "align": "end"
+            }]}
+        ]
     }],
     "borderWidth": "1",
     "positioning": "fixed",
@@ -68,8 +79,8 @@
     "key": "x0q5snt08o",
     "backgroundColor": "#71717a",
     "isDeprecated": false,
-    "rightColumn": 21,
-    "dynamicHeight": "FIXED",
+    "rightColumn": 21.333333333333332,
+    "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "6a28ebsayv",
     "isVisible": true,
     "parentId": "pdz3desupa",
@@ -83,5 +94,6 @@
     "mobileLeftColumn": 0,
     "maxDynamicHeight": 9000,
     "originalBottomRow": 27,
+    "alignment": "start",
     "minDynamicHeight": 10
 }

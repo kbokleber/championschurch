@@ -4,7 +4,7 @@
     "onSort": "{{\n            Select_public_evento1.run();\n            Total_record_public_evento1.run()\n          }}",
     "isVisibleDownload": false,
     "iconSVG": "https://appcdn.appsmith.com/static/media/icon.e6911f8bb94dc6c4a102a74740c41763.svg",
-    "topRow": 13,
+    "topRow": 0,
     "isSortable": true,
     "onPageChange": "{{\n            Select_public_evento1.run();\n            Total_record_public_evento1.run()\n          }}",
     "type": "TABLE_WIDGET_V2",
@@ -28,7 +28,7 @@
         {"key": "primaryColumns.EditActions1.isDiscardDisabled"}
     ],
     "needsHeightForContent": true,
-    "leftColumn": 7,
+    "leftColumn": 0,
     "delimiter": ",",
     "defaultSelectedRowIndex": 0,
     "showInlineEditingOptionDropdown": true,
@@ -72,6 +72,7 @@
     "columnUpdatedAt": 1706052134699,
     "primaryColumnId": "id",
     "defaultSelectedRowIndices": [0],
+    "alignment": "center",
     "mobileBottomRow": 40,
     "widgetName": "Table1",
     "defaultPageSize": 0,
@@ -88,7 +89,7 @@
         {"key": "primaryColumns.EditActions1.isDiscardDisabled"}
     ],
     "displayName": "Table",
-    "bottomRow": 41,
+    "bottomRow": 30,
     "columnWidthMap": {
         "horaevento": 175,
         "datacricao": 249,
@@ -317,7 +318,7 @@
     "key": "zqo3ch64ud",
     "canFreezeColumn": true,
     "isDeprecated": false,
-    "rightColumn": 58,
+    "rightColumn": 64,
     "textSize": "0.875rem",
     "widgetId": "rcw0rsfrnk",
     "allowAddNewRow": true,

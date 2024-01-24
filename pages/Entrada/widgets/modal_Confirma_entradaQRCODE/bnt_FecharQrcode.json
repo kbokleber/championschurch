@@ -11,14 +11,14 @@
         "click",
         "submit"
     ],
-    "topRow": 16,
-    "bottomRow": 22,
+    "topRow": 15.600000000000001,
+    "bottomRow": 21.6,
     "type": "BUTTON_WIDGET",
     "hideCard": false,
     "mobileRightColumn": 47,
     "animateLoading": true,
     "dynamicTriggerPathList": [{"key": "onClick"}],
-    "leftColumn": 16,
+    "leftColumn": 20.869565217391305,
     "dynamicBindingPathList": [
         {"key": "buttonColor"},
         {"key": "borderRadius"}
@@ -26,8 +26,9 @@
     "text": "Fechar\n",
     "isDisabled": false,
     "key": "sc9320tif4",
+    "flexVerticalAlignment": "end",
     "isDeprecated": false,
-    "rightColumn": 37,
+    "rightColumn": 41.869565217391305,
     "isDefaultClickDisabled": true,
     "iconName": "cross",
     "widgetId": "8lnqtujun1",
@@ -49,5 +50,6 @@
     "originalBottomRow": 22,
     "buttonVariant": "SECONDARY",
     "iconAlign": "left",
-    "placement": "CENTER"
+    "placement": "CENTER",
+    "alignment": "start"
 }

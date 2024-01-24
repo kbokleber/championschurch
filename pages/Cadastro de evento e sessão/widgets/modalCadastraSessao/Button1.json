@@ -11,13 +11,13 @@
         "click",
         "submit"
     ],
-    "topRow": 47,
-    "bottomRow": 51,
+    "topRow": 41.6,
+    "bottomRow": 45.6,
     "type": "BUTTON_WIDGET",
     "hideCard": false,
     "mobileRightColumn": 47,
     "animateLoading": true,
-    "leftColumn": 2,
+    "leftColumn": 0,
     "dynamicBindingPathList": [
         {"key": "buttonColor"},
         {"key": "borderRadius"}
@@ -25,8 +25,9 @@
     "text": "Close",
     "isDisabled": false,
     "key": "jp347uhhdc",
+    "flexVerticalAlignment": "end",
     "isDeprecated": false,
-    "rightColumn": 18,
+    "rightColumn": 16,
     "isDefaultClickDisabled": true,
     "widgetId": "5fm9il858h",
     "buttonStyle": "PRIMARY",
@@ -46,5 +47,6 @@
     "mobileLeftColumn": 31,
     "originalBottomRow": 51,
     "buttonVariant": "SECONDARY",
-    "placement": "CENTER"
+    "placement": "CENTER",
+    "alignment": "start"
 }

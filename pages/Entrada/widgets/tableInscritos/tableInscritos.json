@@ -3,7 +3,7 @@
     "borderColor": "#E0DEDE",
     "isCanvas": true,
     "iconSVG": "https://appcdn.appsmith.com/static/media/icon.9e3d67c0af9c0bd092dc56240314e18a.svg",
-    "topRow": 5,
+    "topRow": 0,
     "type": "TABS_WIDGET",
     "animateLoading": true,
     "leftColumn": 0,
@@ -20,15 +20,16 @@
             "mobileBottomRow": 150,
             "widgetName": "Canvas2",
             "displayName": "Canvas",
-            "bottomRow": 840,
+            "bottomRow": 825,
             "topRow": 0,
             "parentRowSpace": 1,
             "type": "CANVAS_WIDGET",
             "canExtend": true,
             "hideCard": true,
             "shouldScrollContents": false,
-            "minHeight": 150,
+            "minHeight": 840,
             "mobileRightColumn": 321.25,
+            "useAutoLayout": true,
             "parentColumnSpace": 1,
             "dynamicTriggerPathList": [],
             "leftColumn": 0,
@@ -36,6 +37,7 @@
                 {"key": "borderRadius"},
                 {"key": "boxShadow"}
             ],
+            "positioning": "vertical",
             "isDisabled": false,
             "key": "rdg2i74qvh",
             "isDeprecated": false,
@@ -56,7 +58,34 @@
             "mobileLeftColumn": 0,
             "maxDynamicHeight": 9000,
             "minDynamicHeight": 4,
-            "flexLayers": []
+            "flexLayers": [
+                {"children": [{
+                    "id": "fb69dfp03z",
+                    "align": "end"
+                }]},
+                {"children": [{
+                    "id": "0ad30by55f",
+                    "align": "start"
+                }]},
+                {"children": [
+                    {
+                        "id": "6a28ebsayv",
+                        "align": "start"
+                    },
+                    {
+                        "id": "5pz9amxzqn",
+                        "align": "start"
+                    },
+                    {
+                        "id": "n56q58tr2p",
+                        "align": "start"
+                    }
+                ]},
+                {"children": [{
+                    "id": "g9neg57fn1",
+                    "align": "start"
+                }]}
+            ]
         },
         {
             "tabId": "tab2",
@@ -64,15 +93,16 @@
             "mobileBottomRow": 150,
             "widgetName": "Canvas3",
             "displayName": "Canvas",
-            "bottomRow": 840,
+            "bottomRow": 825,
             "topRow": 0,
             "parentRowSpace": 1,
             "type": "CANVAS_WIDGET",
             "canExtend": true,
             "hideCard": true,
             "shouldScrollContents": false,
-            "minHeight": 150,
+            "minHeight": 500,
             "mobileRightColumn": 321.25,
+            "useAutoLayout": true,
             "parentColumnSpace": 1,
             "dynamicTriggerPathList": [],
             "leftColumn": 0,
@@ -80,6 +110,7 @@
                 {"key": "borderRadius"},
                 {"key": "boxShadow"}
             ],
+            "positioning": "vertical",
             "isDisabled": false,
             "key": "rdg2i74qvh",
             "isDeprecated": false,
@@ -100,7 +131,10 @@
             "mobileLeftColumn": 0,
             "maxDynamicHeight": 9000,
             "minDynamicHeight": 4,
-            "flexLayers": []
+            "flexLayers": [{"children": [{
+                "id": "khnofmnare",
+                "align": "start"
+            }]}]
         },
         {
             "tabId": "tab3cr3dve79m",
@@ -109,13 +143,14 @@
             "widgetName": "Canvas4",
             "displayName": "Canvas",
             "topRow": 1,
-            "bottomRow": 840,
+            "bottomRow": 825,
             "parentRowSpace": 1,
             "type": "CANVAS_WIDGET",
             "canExtend": false,
             "hideCard": true,
-            "minHeight": 450,
+            "minHeight": 350,
             "mobileRightColumn": 1264.921875,
+            "useAutoLayout": true,
             "parentColumnSpace": 1,
             "dynamicTriggerPathList": [],
             "leftColumn": 0,
@@ -123,6 +158,7 @@
                 {"key": "borderRadius"},
                 {"key": "boxShadow"}
             ],
+            "positioning": "vertical",
             "key": "uioeeiembs",
             "isDeprecated": false,
             "tabName": "Entrada QRCODE",
@@ -143,7 +179,10 @@
             "mobileLeftColumn": 0,
             "maxDynamicHeight": 9000,
             "minDynamicHeight": 4,
-            "flexLayers": []
+            "flexLayers": [{"children": [{
+                "id": "8df8j0zhql",
+                "align": "start"
+            }]}]
         }
     ],
     "flexVerticalAlignment": "stretch",
@@ -156,11 +195,12 @@
     "isLoading": false,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "originalBottomRow": 93,
+    "alignment": "start",
     "mobileBottomRow": 19,
     "widgetName": "tableInscritos",
     "dynamicPropertyPathList": [{"key": "tabsObj.tab3cr3dve79m.isVisible"}],
     "displayName": "Tabs",
-    "bottomRow": 93,
+    "bottomRow": 86.5,
     "parentRowSpace": 10,
     "hideCard": false,
     "shouldScrollContents": true,
@@ -171,7 +211,7 @@
     "key": "9ewfx8pzv8",
     "backgroundColor": "#FFFFFF",
     "isDeprecated": false,
-    "rightColumn": 63,
+    "rightColumn": 64,
     "widgetId": "ievm1bqghx",
     "defaultTab": "Chekins",
     "onTabSelected": "",

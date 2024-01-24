@@ -8,8 +8,8 @@
         "paragraph",
         "label"
     ],
-    "topRow": 9,
-    "bottomRow": 13,
+    "topRow": 10.4,
+    "bottomRow": 14.4,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,
@@ -19,7 +19,7 @@
     "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
     "parentColumnSpace": 6.9375,
     "dynamicTriggerPathList": [],
-    "leftColumn": 13,
+    "leftColumn": 20.869565217391305,
     "dynamicBindingPathList": [
         {"key": "truncateButtonColor"},
         {"key": "fontFamily"},
@@ -30,8 +30,9 @@
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
     "text": "{{inscricaovencedores_list.data.find(x => x.submissionid === appsmith.store.qrcode && x.evento_id === selectEvento.selectedOptionValue).numeroinscricao}}",
     "key": "juuh7145y9",
+    "flexVerticalAlignment": "end",
     "isDeprecated": false,
-    "rightColumn": 23,
+    "rightColumn": 41.73913043478261,
     "textAlign": "LEFT",
     "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "3me2ymexus",
@@ -55,5 +56,6 @@
     "maxDynamicHeight": 9000,
     "originalBottomRow": 13,
     "fontSize": "0.875rem",
+    "alignment": "end",
     "minDynamicHeight": 4
 }

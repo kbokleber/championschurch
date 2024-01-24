@@ -11,7 +11,7 @@
         "submit"
     ],
     "topRow": 0,
-    "bottomRow": 4,
+    "bottomRow": 4.1,
     "tooltip": "Cadastrar pessoa",
     "parentRowSpace": 10,
     "type": "ICON_BUTTON_WIDGET",
@@ -20,15 +20,16 @@
     "animateLoading": true,
     "parentColumnSpace": 19.5,
     "dynamicTriggerPathList": [{"key": "onClick"}],
-    "leftColumn": 58,
+    "leftColumn": 61.96986518636003,
     "dynamicBindingPathList": [
         {"key": "buttonColor"},
         {"key": "borderRadius"}
     ],
     "isDisabled": false,
     "key": "yg0f4h5in1",
+    "flexVerticalAlignment": "end",
     "isDeprecated": false,
-    "rightColumn": 61,
+    "rightColumn": 64,
     "iconName": "plus",
     "widgetId": "fb69dfp03z",
     "minWidth": 50,
@@ -42,5 +43,6 @@
     "responsiveBehavior": "hug",
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 59,
-    "buttonVariant": "PRIMARY"
+    "buttonVariant": "PRIMARY",
+    "alignment": "end"
 }

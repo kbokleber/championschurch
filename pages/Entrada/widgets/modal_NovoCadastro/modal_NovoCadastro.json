@@ -1,7 +1,9 @@
 {
+    "mobileWidthInPercentage": 0.37265625,
     "boxShadow": "none",
     "mobileBottomRow": 31,
     "widgetName": "modal_NovoCadastro",
+    "widthInPercentage": 0.37265625,
     "isCanvas": true,
     "displayName": "Modal",
     "iconSVG": "https://appcdn.appsmith.com/static/media/icon.b374721fa8e1aeab7cf326c2d865506f.svg",
@@ -10,8 +12,8 @@
         "popup",
         "notification"
     ],
-    "topRow": 7,
-    "bottomRow": 277,
+    "topRow": 112.5,
+    "bottomRow": 142.10000000000002,
     "parentRowSpace": 10,
     "type": "MODAL_WIDGET",
     "hideCard": false,
@@ -21,7 +23,7 @@
     "animateLoading": true,
     "parentColumnSpace": 19.5,
     "dynamicTriggerPathList": [{"key": "onClose"}],
-    "leftColumn": 13,
+    "leftColumn": 20,
     "dynamicBindingPathList": [{"key": "borderRadius"}],
     "children": [{
         "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
@@ -29,20 +31,22 @@
         "widgetName": "Canvas5",
         "displayName": "Canvas",
         "topRow": 0,
-        "bottomRow": 270,
+        "bottomRow": 290,
         "parentRowSpace": 1,
         "type": "CANVAS_WIDGET",
         "canExtend": true,
         "hideCard": true,
         "shouldScrollContents": false,
-        "minHeight": 240,
+        "minHeight": 260,
         "mobileRightColumn": 468,
+        "useAutoLayout": true,
         "parentColumnSpace": 1,
         "leftColumn": 0,
         "dynamicBindingPathList": [
             {"key": "borderRadius"},
             {"key": "boxShadow"}
         ],
+        "positioning": "vertical",
         "isDisabled": false,
         "key": "fz4i4bfysn",
         "isDeprecated": false,
@@ -62,12 +66,47 @@
         "mobileLeftColumn": 0,
         "maxDynamicHeight": 9000,
         "minDynamicHeight": 4,
-        "flexLayers": []
+        "flexLayers": [
+            {"children": [{
+                "id": "rpm05xe329",
+                "align": "start"
+            }]},
+            {"children": [
+                {
+                    "id": "9p54tkqjt2",
+                    "align": "center"
+                },
+                {
+                    "id": "nvahnjpd80",
+                    "align": "center"
+                }
+            ]},
+            {"children": [
+                {
+                    "id": "9fr30wvwoa",
+                    "align": "center"
+                },
+                {
+                    "id": "9bm90cay47",
+                    "align": "center"
+                }
+            ]},
+            {"children": [
+                {
+                    "id": "es747p2xt1",
+                    "align": "start"
+                },
+                {
+                    "id": "lgcfgyz73w",
+                    "align": "end"
+                }
+            ]}
+        ]
     }],
     "key": "1wl3n4fdc8",
-    "height": 270,
+    "height": 298,
     "isDeprecated": false,
-    "rightColumn": 37,
+    "rightColumn": 44,
     "detachFromLayout": true,
     "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "o0gcmpzpgy",
@@ -80,9 +119,10 @@
     "isLoading": false,
     "mobileTopRow": 7,
     "onClose": "",
+    "responsiveBehavior": "hug",
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 13,
     "maxDynamicHeight": 9000,
     "width": 526,
-    "minDynamicHeight": 24
+    "minDynamicHeight": 8
 }
