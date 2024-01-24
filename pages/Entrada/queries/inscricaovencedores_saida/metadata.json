@@ -17,7 +17,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Page1",
+    "pageId": "Entrada",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -62,7 +62,7 @@
     "userPermissions": [],
     "createdAt": "2023-11-28T23:45:35Z"
   },
-  "id": "Page1_inscricaovencedores_saida",
+  "id": "Entrada_inscricaovencedores_saida",
   "deleted": false,
   "gitSyncId": "654e122ffef2ef2f47f0e3de_65667b9fef9bda14ed291ae5"
 }
