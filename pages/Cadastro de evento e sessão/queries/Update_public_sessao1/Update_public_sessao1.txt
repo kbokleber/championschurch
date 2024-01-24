@@ -1,0 +1,1 @@
+UPDATE public.sessao SET "datacricao"= '{{Table2.updatedRow.datacricao}}', "nomesessao"= '{{Table2.updatedRow.nomesessao}}', "horainicio"= '{{Table2.updatedRow.horainicio}}', "horafim"= '{{Table2.updatedRow.horafim}}', "evento_id"= '{{Table2.updatedRow.evento_id}}' WHERE "id"= {{Table2.updatedRow.id}};

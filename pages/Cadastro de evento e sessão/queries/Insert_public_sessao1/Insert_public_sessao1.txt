@@ -1,0 +1,1 @@
+INSERT INTO public.sessao ("datacricao","nomesessao","horainicio","horafim","evento_id") VALUES ('{{(Table2.newRow || {}).datacricao}}','{{(Table2.newRow || {}).nomesessao}}','{{(Table2.newRow || {}).horainicio}}','{{(Table2.newRow || {}).horafim}}','{{(Table2.newRow || {}).evento_id}}')

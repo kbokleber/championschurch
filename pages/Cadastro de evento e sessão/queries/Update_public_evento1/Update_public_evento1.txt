@@ -1,0 +1,1 @@
+UPDATE public.evento SET "datacricao"= '{{Table1.updatedRow.datacricao}}', "nomeevento"= '{{Table1.updatedRow.nomeevento}}', "horaevento"= '{{Table1.updatedRow.horaevento}}', "ativo"= '{{Table1.updatedRow.ativo}}' WHERE "id"= {{Table1.updatedRow.id}};
