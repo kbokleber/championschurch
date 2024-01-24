@@ -28,7 +28,7 @@
         {"key": "primaryColumns.EditActions1.isDiscardDisabled"}
     ],
     "needsHeightForContent": true,
-    "leftColumn": 2,
+    "leftColumn": 7,
     "delimiter": ",",
     "defaultSelectedRowIndex": 0,
     "showInlineEditingOptionDropdown": true,
@@ -317,7 +317,7 @@
     "key": "zqo3ch64ud",
     "canFreezeColumn": true,
     "isDeprecated": false,
-    "rightColumn": 53,
+    "rightColumn": 58,
     "textSize": "0.875rem",
     "widgetId": "rcw0rsfrnk",
     "allowAddNewRow": true,
