@@ -81,7 +81,7 @@
     "columnUpdatedAt": 1705972145858,
     "defaultSelectedRowIndices": [0],
     "alignment": "start",
-    "mobileBottomRow": 29,
+    "mobileBottomRow": 30,
     "widgetName": "noEvento",
     "defaultPageSize": 0,
     "columnOrder": [
@@ -109,7 +109,7 @@
     "columnWidthMap": {"nomecompleto": 193},
     "parentRowSpace": 10,
     "hideCard": false,
-    "mobileRightColumn": 28,
+    "mobileRightColumn": 64,
     "parentColumnSpace": 19.451904296875,
     "dynamicTriggerPathList": [
         {"key": "onSort"},
@@ -534,7 +534,7 @@
     "searchKey": "",
     "parentId": "vquvr2fj3x",
     "renderMode": "CANVAS",
-    "mobileTopRow": 1,
+    "mobileTopRow": 0,
     "horizontalAlignment": "LEFT",
     "isVisibleSearch": true,
     "responsiveBehavior": "fill",

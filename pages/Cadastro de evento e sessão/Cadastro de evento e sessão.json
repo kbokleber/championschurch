@@ -6,27 +6,29 @@
       {
         "viewMode": false,
         "dsl": {
+          "mobileBottomRow": 790,
           "widgetName": "MainContainer",
+          "topRow": 0,
+          "bottomRow": 612,
+          "parentRowSpace": 1,
+          "type": "CANVAS_WIDGET",
+          "canExtend": true,
+          "minHeight": 790,
+          "useAutoLayout": true,
+          "parentColumnSpace": 1,
+          "dynamicBindingPathList": [],
+          "leftColumn": 0,
+          "positioning": "vertical",
           "backgroundColor": "none",
           "rightColumn": 1224,
           "snapColumns": 64,
           "detachFromLayout": true,
           "widgetId": "0",
-          "topRow": 0,
-          "bottomRow": 868,
           "containerStyle": "none",
           "snapRows": 77,
-          "parentRowSpace": 1,
-          "type": "CANVAS_WIDGET",
-          "canExtend": true,
           "version": 87,
-          "minHeight": 790,
-          "useAutoLayout": true,
-          "parentColumnSpace": 1,
+          "mobileTopRow": 0,
           "responsiveBehavior": "fill",
-          "dynamicBindingPathList": [],
-          "leftColumn": 0,
-          "positioning": "vertical",
           "flexLayers": [
             {
               "children": [
@@ -39,8 +41,8 @@
             {
               "children": [
                 {
-                  "id": "a3tplguvol",
-                  "align": "center"
+                  "id": "h5178ukmgs",
+                  "align": "start"
                 }
               ]
             }
@@ -54,11 +56,11 @@
               "confirmBeforeExecute": false,
               "pluginType": "DB",
               "jsonPathKeys": [
-                "Table1.searchText",
-                "Table1.sortOrder.order !== \"desc\" ? \"\" : \"DESC\"",
-                "Table1.sortOrder.column || 'id'",
-                "Table1.pageSize",
-                "Table1.pageOffset"
+                "tblEvento.searchText",
+                "tblEvento.pageSize",
+                "tblEvento.sortOrder.order !== \"desc\" ? \"\" : \"DESC\"",
+                "tblEvento.sortOrder.column || 'id'",
+                "tblEvento.pageOffset"
               ],
               "timeoutInMillisecond": 10000
             },
@@ -68,11 +70,12 @@
               "confirmBeforeExecute": false,
               "pluginType": "DB",
               "jsonPathKeys": [
-                "Table2.pageSize",
-                "Table2.sortOrder.order !== \"desc\" ? \"\" : \"DESC\"",
-                "Table2.sortOrder.column || 'id'",
-                "Table2.pageOffset",
-                "Table2.searchText"
+                "tblSessao.searchText",
+                "tblSessao.sortOrder.order !== \"desc\" ? \"\" : \"DESC\"",
+                "tblSessao.sortOrder.column || 'id'",
+                "tblSessao.pageOffset",
+                "tblSessao.pageSize",
+                "tblEvento.selectedRow.id"
               ],
               "timeoutInMillisecond": 10000
             }
@@ -84,7 +87,7 @@
               "confirmBeforeExecute": false,
               "pluginType": "DB",
               "jsonPathKeys": [
-                "Table1.searchText"
+                "tblEvento.searchText"
               ],
               "timeoutInMillisecond": 10000
             },
@@ -94,7 +97,7 @@
               "confirmBeforeExecute": false,
               "pluginType": "DB",
               "jsonPathKeys": [
-                "Table2.searchText"
+                "tblSessao.searchText"
               ],
               "timeoutInMillisecond": 10000
             }

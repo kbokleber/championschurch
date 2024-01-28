@@ -18,7 +18,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "UPDATE public.sessao SET \"datacricao\"= '{{Table2.updatedRow.datacricao}}', \"nomesessao\"= '{{Table2.updatedRow.nomesessao}}', \"horainicio\"= '{{Table2.updatedRow.horainicio}}', \"horafim\"= '{{Table2.updatedRow.horafim}}', \"evento_id\"= '{{Table2.updatedRow.evento_id}}' WHERE \"id\"= {{Table2.updatedRow.id}};",
+      "body": "UPDATE public.sessao SET \"datacricao\"= '{{tblSessao.updatedRow.datacricao}}', \"nomesessao\"= '{{tblSessao.updatedRow.nomesessao}}', \"horainicio\"= '{{tblSessao.updatedRow.horainicio}}', \"horafim\"= '{{tblSessao.updatedRow.horafim}}', \"evento_id\"= '{{tblSessao.updatedRow.evento_id}}' WHERE \"id\"= {{tblSessao.updatedRow.id}};",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -36,20 +36,20 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "Table2.updatedRow.datacricao",
-      "Table2.updatedRow.evento_id",
-      "Table2.updatedRow.horafim",
-      "Table2.updatedRow.horainicio",
-      "Table2.updatedRow.id",
-      "Table2.updatedRow.nomesessao"
+      "tblSessao.updatedRow.datacricao",
+      "tblSessao.updatedRow.evento_id",
+      "tblSessao.updatedRow.horafim",
+      "tblSessao.updatedRow.horainicio",
+      "tblSessao.updatedRow.id",
+      "tblSessao.updatedRow.nomesessao"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2024-01-24T00:04:25Z"
+    "createdAt": "2024-01-28T19:59:10Z"
   },
   "id": "Cadastro de evento e sessão_Update_public_sessao1",
   "deleted": false,
-  "gitSyncId": "654e122ffef2ef2f47f0e3de_65b05409664fbb2a4a7be2ad"
+  "gitSyncId": "65b056cc501b0e660571ebca_65b6b20e46843965c64224e8"
 }

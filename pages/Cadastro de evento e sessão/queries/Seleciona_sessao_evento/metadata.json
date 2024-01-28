@@ -2,7 +2,7 @@
   "pluginType": "DB",
   "pluginId": "postgres-plugin",
   "unpublishedAction": {
-    "name": "Insert_public_evento1",
+    "name": "Seleciona_sessao_evento",
     "datasource": {
       "name": "Championschurch",
       "pluginId": "postgres-plugin",
@@ -18,11 +18,11 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "INSERT INTO public.evento (\"datacricao\",\"nomeevento\",\"horaevento\",\"ativo\") VALUES ('{{(tblEvento.newRow || {}).datacricao}}','{{(tblEvento.newRow || {}).nomeevento}}','{{(tblEvento.newRow || {}).horaevento}}','{{(tblEvento.newRow || {}).ativo}}')",
+      "body": "SELECT * FROM public.\"sessao\" WHERE public.sessao.evento_id = {{tblEvento.selectedRow.id}}\n",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
-          "value": false
+          "value": true
         }
       ]
     },
@@ -36,18 +36,15 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "(tblEvento.newRow || {}).ativo",
-      "(tblEvento.newRow || {}).datacricao",
-      "(tblEvento.newRow || {}).horaevento",
-      "(tblEvento.newRow || {}).nomeevento"
+      "tblEvento.selectedRow.id"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2024-01-23T23:22:18Z"
+    "createdAt": "2024-01-27T00:40:03Z"
   },
-  "id": "Cadastro de evento e sessão_Insert_public_evento1",
+  "id": "Cadastro de evento e sessão_Seleciona_sessao_evento",
   "deleted": false,
-  "gitSyncId": "654e122ffef2ef2f47f0e3de_65b04a2a165cc466aa8cd85b"
+  "gitSyncId": "65b056cc501b0e660571ebca_65b450e355d8135dd8f861a1"
 }

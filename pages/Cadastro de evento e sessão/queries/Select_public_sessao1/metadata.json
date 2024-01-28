@@ -18,7 +18,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "SELECT\n  *\nFROM\n  public.sessao\nWHERE\n  \"nomesessao\" ilike '%{{Table2.searchText}}%'\nORDER BY\n  \"{{Table2.sortOrder.column || 'id'}}\" {{Table2.sortOrder.order !== \"desc\" ? \"\" : \"DESC\"}}\nLIMIT\n  {{Table2.pageSize}}\nOFFSET\n  {{Table2.pageOffset}}",
+      "body": "SELECT\n  *\nFROM\n  public.sessao\nWHERE\n  \"nomesessao\" ilike '%{{tblSessao.searchText}}%' \n\tAND \"evento_id\" = {{tblEvento.selectedRow.id}}\nORDER BY\n  \"{{tblSessao.sortOrder.column || 'id'}}\" {{tblSessao.sortOrder.order !== \"desc\" ? \"\" : \"DESC\"}}\nLIMIT\n  {{tblSessao.pageSize}}\nOFFSET\n  {{tblSessao.pageOffset}}",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -36,19 +36,20 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "Table2.pageOffset",
-      "Table2.pageSize",
-      "Table2.searchText",
-      "Table2.sortOrder.column || 'id'",
-      "Table2.sortOrder.order !== \"desc\" ? \"\" : \"DESC\""
+      "tblEvento.selectedRow.id",
+      "tblSessao.pageOffset",
+      "tblSessao.pageSize",
+      "tblSessao.searchText",
+      "tblSessao.sortOrder.column || 'id'",
+      "tblSessao.sortOrder.order !== \"desc\" ? \"\" : \"DESC\""
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2024-01-24T00:04:24Z"
+    "createdAt": "2024-01-28T19:59:09Z"
   },
   "id": "Cadastro de evento e sessão_Select_public_sessao1",
   "deleted": false,
-  "gitSyncId": "654e122ffef2ef2f47f0e3de_65b054084b703a552d185c0e"
+  "gitSyncId": "65b056cc501b0e660571ebca_65b6b20d61f97d6d99d28a61"
 }

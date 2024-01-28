@@ -18,7 +18,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "UPDATE public.evento SET \"datacricao\"= '{{Table1.updatedRow.datacricao}}', \"nomeevento\"= '{{Table1.updatedRow.nomeevento}}', \"horaevento\"= '{{Table1.updatedRow.horaevento}}', \"ativo\"= '{{Table1.updatedRow.ativo}}' WHERE \"id\"= {{Table1.updatedRow.id}};",
+      "body": "UPDATE public.evento SET \"datacricao\"= '{{tblEvento.updatedRow.datacricao}}', \"nomeevento\"= '{{tblEvento.updatedRow.nomeevento}}', \"horaevento\"= '{{tblEvento.updatedRow.horaevento}}', \"ativo\"= '{{tblEvento.updatedRow.ativo}}' WHERE \"id\"= {{tblEvento.updatedRow.id}};",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -36,11 +36,11 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "Table1.updatedRow.ativo",
-      "Table1.updatedRow.datacricao",
-      "Table1.updatedRow.horaevento",
-      "Table1.updatedRow.id",
-      "Table1.updatedRow.nomeevento"
+      "tblEvento.updatedRow.ativo",
+      "tblEvento.updatedRow.datacricao",
+      "tblEvento.updatedRow.horaevento",
+      "tblEvento.updatedRow.id",
+      "tblEvento.updatedRow.nomeevento"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,

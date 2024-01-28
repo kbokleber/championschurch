@@ -3,10 +3,11 @@ SELECT
 FROM
   public.sessao
 WHERE
-  "nomesessao" ilike '%{{Table2.searchText}}%'
+  "nomesessao" ilike '%{{tblSessao.searchText}}%' 
+	AND "evento_id" = {{tblEvento.selectedRow.id}}
 ORDER BY
-  "{{Table2.sortOrder.column || 'id'}}" {{Table2.sortOrder.order !== "desc" ? "" : "DESC"}}
+  "{{tblSessao.sortOrder.column || 'id'}}" {{tblSessao.sortOrder.order !== "desc" ? "" : "DESC"}}
 LIMIT
-  {{Table2.pageSize}}
+  {{tblSessao.pageSize}}
 OFFSET
-  {{Table2.pageOffset}}
+  {{tblSessao.pageOffset}}

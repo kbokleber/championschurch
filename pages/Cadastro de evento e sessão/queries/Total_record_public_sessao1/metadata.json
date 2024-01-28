@@ -18,7 +18,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "SELECT COUNT(*) from public.sessao where nomesessao ilike '%{{Table2.searchText}}%';",
+      "body": "SELECT COUNT(*) from public.sessao where nomesessao ilike '%{{tblSessao.searchText}}%';",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -36,15 +36,15 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "Table2.searchText"
+      "tblSessao.searchText"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2024-01-24T00:04:24Z"
+    "createdAt": "2024-01-28T19:59:09Z"
   },
   "id": "Cadastro de evento e sessão_Total_record_public_sessao1",
   "deleted": false,
-  "gitSyncId": "654e122ffef2ef2f47f0e3de_65b05408664fbb2a4a7be2ab"
+  "gitSyncId": "65b056cc501b0e660571ebca_65b6b20d61f97d6d99d28a60"
 }

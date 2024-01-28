@@ -18,7 +18,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "SELECT\n  *\nFROM\n  public.evento\nWHERE\n  \"nomeevento\" ilike '%{{Table1.searchText}}%'\nORDER BY\n  \"{{Table1.sortOrder.column || 'id'}}\" {{Table1.sortOrder.order !== \"desc\" ? \"\" : \"DESC\"}}\nLIMIT\n  {{Table1.pageSize}}\nOFFSET\n  {{Table1.pageOffset}}",
+      "body": "SELECT\n  *\nFROM\n  public.evento\nWHERE\n  \"nomeevento\" ilike '%{{tblEvento.searchText}}%'\nORDER BY\n  \"{{tblEvento.sortOrder.column || 'id'}}\" {{tblEvento.sortOrder.order !== \"desc\" ? \"\" : \"DESC\"}}\nLIMIT\n  {{tblEvento.pageSize}}\nOFFSET\n  {{tblEvento.pageOffset}}",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -36,11 +36,11 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "Table1.pageOffset",
-      "Table1.pageSize",
-      "Table1.searchText",
-      "Table1.sortOrder.column || 'id'",
-      "Table1.sortOrder.order !== \"desc\" ? \"\" : \"DESC\""
+      "tblEvento.pageOffset",
+      "tblEvento.pageSize",
+      "tblEvento.searchText",
+      "tblEvento.sortOrder.column || 'id'",
+      "tblEvento.sortOrder.order !== \"desc\" ? \"\" : \"DESC\""
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
