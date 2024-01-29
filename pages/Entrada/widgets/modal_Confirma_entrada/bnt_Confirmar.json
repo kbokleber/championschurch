@@ -3,7 +3,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 32.800000000000004,
     "widgetName": "bnt_Confirmar",
-    "onClick": "{{inscricaovencedores_entrada.run({\n  \"id\": \"{{TodosCadastros.selectedRow.id}}\",\n  \"entrada\": true\n}).then(() => {\n  closeModal('modal_Confirma_entrada');\n  inscricaovencedores_list.run();\n}).catch(() => {\n  showAlert('Falha oa gravar!!', 'error');\n});}}",
+    "onClick": "{{update_entrada_manual.run().then(() => {\n  closeModal('modal_Confirma_entrada');\n  lista_inscritos_evento.run();\n}).catch(() => {\n  showAlert('Falha oa gravar!!', 'error');\n});}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
     "displayName": "Button",
     "iconSVG": "https://appcdn.appsmith.com/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",
@@ -12,13 +12,13 @@
         "submit"
     ],
     "topRow": 15.600000000000001,
-    "bottomRow": 21.6,
+    "bottomRow": 19.6,
     "type": "BUTTON_WIDGET",
     "hideCard": false,
     "mobileRightColumn": 64,
     "animateLoading": true,
     "dynamicTriggerPathList": [{"key": "onClick"}],
-    "leftColumn": 42,
+    "leftColumn": 46.780269058295964,
     "dynamicBindingPathList": [
         {"key": "buttonColor"},
         {"key": "borderRadius"}

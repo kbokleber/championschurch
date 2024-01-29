@@ -13,8 +13,8 @@
         "popup",
         "notification"
     ],
-    "topRow": 168.1,
-    "bottomRow": 191.7,
+    "topRow": 168.50000000000009,
+    "bottomRow": 190.10000000000008,
     "parentRowSpace": 1,
     "type": "MODAL_WIDGET",
     "hideCard": false,
@@ -32,7 +32,7 @@
         "widgetName": "Canvas1Copy1",
         "displayName": "Canvas",
         "topRow": 0,
-        "bottomRow": 230,
+        "bottomRow": 210,
         "parentRowSpace": 1,
         "type": "CANVAS_WIDGET",
         "canExtend": true,
@@ -111,7 +111,7 @@
         ]
     }],
     "key": "oa6l5dby53",
-    "height": 238,
+    "height": 218,
     "isDeprecated": false,
     "rightColumn": 32,
     "detachFromLayout": true,

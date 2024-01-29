@@ -3,7 +3,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 40.000000000000014,
     "widgetName": "bntConfirmarNovoCadastro",
-    "onClick": "{{inscricaovencedores_add.run().then(() => {\n  closeModal('modal_NovoCadastro');\n  showAlert('Cadastro efetuado com sucesso!', 'success');\n  inscricaovencedores_list.run();\n});}}",
+    "onClick": "{{inserir_inscricao.run().then(() => {\n  closeModal('modal_NovoCadastro');\n  lista_inscritos_evento.run();\n});}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
     "displayName": "Button",
     "iconSVG": "https://appcdn.appsmith.com/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",
@@ -11,14 +11,14 @@
         "click",
         "submit"
     ],
-    "topRow": 21.599999999999998,
-    "bottomRow": 27.599999999999998,
+    "topRow": 26,
+    "bottomRow": 30,
     "type": "BUTTON_WIDGET",
     "hideCard": false,
     "mobileRightColumn": 64,
     "animateLoading": true,
     "dynamicTriggerPathList": [{"key": "onClick"}],
-    "leftColumn": 42,
+    "leftColumn": 50.08695652173913,
     "dynamicBindingPathList": [
         {"key": "buttonColor"},
         {"key": "borderRadius"}

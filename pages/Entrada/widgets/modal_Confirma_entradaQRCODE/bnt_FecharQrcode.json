@@ -18,7 +18,7 @@
     "mobileRightColumn": 23.813953488372093,
     "animateLoading": true,
     "dynamicTriggerPathList": [{"key": "onClick"}],
-    "leftColumn": 20.869565217391305,
+    "leftColumn": 22.130434782608695,
     "dynamicBindingPathList": [
         {"key": "buttonColor"},
         {"key": "borderRadius"}
@@ -28,7 +28,7 @@
     "key": "sc9320tif4",
     "flexVerticalAlignment": "end",
     "isDeprecated": false,
-    "rightColumn": 41.869565217391305,
+    "rightColumn": 43.130434782608695,
     "isDefaultClickDisabled": true,
     "iconName": "cross",
     "widgetId": "8lnqtujun1",

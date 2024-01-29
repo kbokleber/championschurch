@@ -18,7 +18,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "INSERT INTO public.evento (\"datacricao\",\"nomeevento\",\"horaevento\",\"ativo\") VALUES ('{{(tblEvento.newRow || {}).datacricao}}','{{(tblEvento.newRow || {}).nomeevento}}','{{(tblEvento.newRow || {}).horaevento}}','{{(tblEvento.newRow || {}).ativo}}')",
+      "body": "INSERT INTO public.evento (\"nomeevento\",\"ativo\") VALUES ('{{(tblEvento.newRow || {}).nomeevento}}','{{(tblEvento.newRow || {}).ativo}}')",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -37,17 +37,15 @@
     "messages": [],
     "jsonPathKeys": [
       "(tblEvento.newRow || {}).ativo",
-      "(tblEvento.newRow || {}).datacricao",
-      "(tblEvento.newRow || {}).horaevento",
       "(tblEvento.newRow || {}).nomeevento"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2024-01-23T23:22:18Z"
+    "createdAt": "2024-01-28T22:05:55Z"
   },
   "id": "Cadastro de evento e sessão_Insert_public_evento1",
   "deleted": false,
-  "gitSyncId": "654e122ffef2ef2f47f0e3de_65b04a2a165cc466aa8cd85b"
+  "gitSyncId": "65b056cc501b0e660571ebca_65b6cfc37f37074a84b3a6d7"
 }

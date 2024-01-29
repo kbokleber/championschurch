@@ -26,7 +26,7 @@
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "{{ inscricaovencedores_list.data.filter(obj => obj.entrada == false).length }}",
+    "text": "{{ lista_inscritos_evento.data.filter(obj => obj.entrada == false).length }}",
     "key": "1xld8g61n7",
     "flexVerticalAlignment": "end",
     "isDeprecated": false,

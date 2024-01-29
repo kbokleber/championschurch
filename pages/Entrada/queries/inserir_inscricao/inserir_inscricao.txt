@@ -1,0 +1,10 @@
+INSERT INTO public.inscricao ("submissionid", "nomecompleto", "telefone", "evento_id", "sessao_id", "entrada", "numeroinscricao") 
+VALUES (
+    '{{txtQrcode_manual.text}}',
+    '{{input_nome.text}}',
+    '55' || '{{input_telefone.value}}',
+    '{{selectEvento.selectedOptionValue}}',
+    '{{selectSessao.selectedOptionValue}}',
+    'f',
+    (select case when max(numeroinscricao) is null then '1' else max(numeroinscricao) + 1 end from public.inscricao WHERE evento_id = {{selectEvento.selectedOptionValue}})
+);

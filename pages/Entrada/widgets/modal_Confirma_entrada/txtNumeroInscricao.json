@@ -28,7 +28,7 @@
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "{{TodosCadastros.selectedRow.numeroinscricao}}",
+    "text": "{{tblInscritos.selectedRow.numeroinscricao}}",
     "key": "juuh7145y9",
     "flexVerticalAlignment": "end",
     "isDeprecated": false,

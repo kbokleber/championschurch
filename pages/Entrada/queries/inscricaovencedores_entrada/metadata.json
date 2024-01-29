@@ -31,7 +31,7 @@
       ],
       "encodeParamsToggle": true,
       "queryParameters": [],
-      "body": "{\n  \"id\": {{TodosCadastros.selectedRow.id}}\n}",
+      "body": "{\n  \"id\": {{tblInscritos.selectedRow.id}}\n}",
       "bodyFormData": [],
       "httpMethod": "PUT",
       "selfReferencingDataPaths": [],
@@ -54,7 +54,7 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "TodosCadastros.selectedRow.id"
+      "tblInscritos.selectedRow.id"
     ],
     "userSetOnLoad": true,
     "confirmBeforeExecute": false,

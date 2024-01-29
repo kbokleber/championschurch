@@ -18,7 +18,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "UPDATE public.sessao SET \"datacricao\"= '{{tblSessao.updatedRow.datacricao}}', \"nomesessao\"= '{{tblSessao.updatedRow.nomesessao}}', \"horainicio\"= '{{tblSessao.updatedRow.horainicio}}', \"horafim\"= '{{tblSessao.updatedRow.horafim}}', \"evento_id\"= '{{tblSessao.updatedRow.evento_id}}' WHERE \"id\"= {{tblSessao.updatedRow.id}};",
+      "body": "UPDATE public.sessao SET \"nomesessao\"= '{{tblSessao.updatedRow.nomesessao}}', \"horainicio\"= '{{tblSessao.updatedRow.horainicio}}', \"horafim\"= '{{tblSessao.updatedRow.horafim}}', \"evento_id\"= '{{tblSessao.updatedRow.evento_id}}', \"data\" = '{{tblSessao.updatedRow.data}}' WHERE \"id\"= {{tblSessao.updatedRow.id}};",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -36,7 +36,7 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "tblSessao.updatedRow.datacricao",
+      "tblSessao.updatedRow.data",
       "tblSessao.updatedRow.evento_id",
       "tblSessao.updatedRow.horafim",
       "tblSessao.updatedRow.horainicio",
@@ -47,9 +47,9 @@
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2024-01-28T19:59:10Z"
+    "createdAt": "2024-01-28T22:10:21Z"
   },
   "id": "Cadastro de evento e sessão_Update_public_sessao1",
   "deleted": false,
-  "gitSyncId": "65b056cc501b0e660571ebca_65b6b20e46843965c64224e8"
+  "gitSyncId": "65b056cc501b0e660571ebca_65b6d0ccf9148d10ca2566c5"
 }

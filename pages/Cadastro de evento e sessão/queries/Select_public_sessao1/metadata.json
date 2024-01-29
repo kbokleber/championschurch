@@ -18,7 +18,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "SELECT\n  *\nFROM\n  public.sessao\nWHERE\n  \"nomesessao\" ilike '%{{tblSessao.searchText}}%' \n\tAND \"evento_id\" = {{tblEvento.selectedRow.id}}\nORDER BY\n  \"{{tblSessao.sortOrder.column || 'id'}}\" {{tblSessao.sortOrder.order !== \"desc\" ? \"\" : \"DESC\"}}\nLIMIT\n  {{tblSessao.pageSize}}\nOFFSET\n  {{tblSessao.pageOffset}}",
+      "body": "SELECT\n  *\nFROM\n  public.sessao\nWHERE\n  \"nomesessao\" ilike '%{{tblSessao.searchText}}%' AND \"evento_id\" = {{tblEvento.selectedRow.id}}\nORDER BY\n  \"{{tblSessao.sortOrder.column || 'id'}}\" {{tblSessao.sortOrder.order !== \"desc\" ? \"\" : \"DESC\"}}\nLIMIT\n  {{tblSessao.pageSize}}\nOFFSET\n  {{tblSessao.pageOffset}}",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -26,7 +26,7 @@
         }
       ]
     },
-    "executeOnLoad": true,
+    "executeOnLoad": false,
     "dynamicBindingPathList": [
       {
         "key": "body"
@@ -47,9 +47,9 @@
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2024-01-28T19:59:09Z"
+    "createdAt": "2024-01-28T22:10:19Z"
   },
   "id": "Cadastro de evento e sessão_Select_public_sessao1",
   "deleted": false,
-  "gitSyncId": "65b056cc501b0e660571ebca_65b6b20d61f97d6d99d28a61"
+  "gitSyncId": "65b056cc501b0e660571ebca_65b6d0cbf9148d10ca2566c2"
 }

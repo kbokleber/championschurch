@@ -26,7 +26,7 @@
         }
       ]
     },
-    "executeOnLoad": true,
+    "executeOnLoad": false,
     "dynamicBindingPathList": [
       {
         "key": "body"
@@ -42,9 +42,9 @@
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2024-01-28T19:59:09Z"
+    "createdAt": "2024-01-28T22:10:19Z"
   },
   "id": "Cadastro de evento e sessão_Total_record_public_sessao1",
   "deleted": false,
-  "gitSyncId": "65b056cc501b0e660571ebca_65b6b20d61f97d6d99d28a60"
+  "gitSyncId": "65b056cc501b0e660571ebca_65b6d0cbf9148d10ca2566c1"
 }

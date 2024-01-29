@@ -12,8 +12,8 @@
         "popup",
         "notification"
     ],
-    "topRow": 112.50000000000001,
-    "bottomRow": 142.10000000000002,
+    "topRow": 112.5000000000001,
+    "bottomRow": 144.50000000000009,
     "parentRowSpace": 10,
     "type": "MODAL_WIDGET",
     "hideCard": false,
@@ -31,13 +31,13 @@
         "widgetName": "Canvas5",
         "displayName": "Canvas",
         "topRow": 0,
-        "bottomRow": 290,
+        "bottomRow": 320,
         "parentRowSpace": 1,
         "type": "CANVAS_WIDGET",
         "canExtend": true,
         "hideCard": true,
         "shouldScrollContents": false,
-        "minHeight": 260,
+        "minHeight": 270,
         "mobileRightColumn": 468,
         "useAutoLayout": true,
         "parentColumnSpace": 1,
@@ -71,6 +71,10 @@
                 "id": "rpm05xe329",
                 "align": "start"
             }]},
+            {"children": [{
+                "id": "cph89ueq1l",
+                "align": "start"
+            }]},
             {"children": [
                 {
                     "id": "9p54tkqjt2",
@@ -81,16 +85,10 @@
                     "align": "center"
                 }
             ]},
-            {"children": [
-                {
-                    "id": "9fr30wvwoa",
-                    "align": "center"
-                },
-                {
-                    "id": "9bm90cay47",
-                    "align": "center"
-                }
-            ]},
+            {"children": [{
+                "id": "tacpwyumml",
+                "align": "start"
+            }]},
             {"children": [
                 {
                     "id": "es747p2xt1",
@@ -104,7 +102,7 @@
         ]
     }],
     "key": "1wl3n4fdc8",
-    "height": 298,
+    "height": 322,
     "isDeprecated": false,
     "rightColumn": 44,
     "detachFromLayout": true,
@@ -123,6 +121,6 @@
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 20,
     "maxDynamicHeight": 9000,
-    "width": 526,
+    "width": 562,
     "minDynamicHeight": 8
 }

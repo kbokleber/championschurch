@@ -12,7 +12,7 @@
         "submit"
     ],
     "topRow": 15.600000000000001,
-    "bottomRow": 21.6,
+    "bottomRow": 19.6,
     "type": "BUTTON_WIDGET",
     "hideCard": false,
     "mobileRightColumn": 23.813953488372093,
@@ -28,7 +28,7 @@
     "key": "sc9320tif4",
     "flexVerticalAlignment": "end",
     "isDeprecated": false,
-    "rightColumn": 19,
+    "rightColumn": 18.395209580838323,
     "isDefaultClickDisabled": true,
     "iconName": "cross",
     "widgetId": "0pms49xoyo",

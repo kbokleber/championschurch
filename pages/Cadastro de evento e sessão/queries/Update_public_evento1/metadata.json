@@ -18,7 +18,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "UPDATE public.evento SET \"datacricao\"= '{{tblEvento.updatedRow.datacricao}}', \"nomeevento\"= '{{tblEvento.updatedRow.nomeevento}}', \"horaevento\"= '{{tblEvento.updatedRow.horaevento}}', \"ativo\"= '{{tblEvento.updatedRow.ativo}}' WHERE \"id\"= {{tblEvento.updatedRow.id}};",
+      "body": "UPDATE public.evento SET \"datacricao\"= '{{tblEvento.updatedRow.datacricao}}', \"nomeevento\"= '{{tblEvento.updatedRow.nomeevento}}', \"ativo\"= '{{tblEvento.updatedRow.ativo}}' WHERE \"id\"= {{tblEvento.updatedRow.id}};",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -38,7 +38,6 @@
     "jsonPathKeys": [
       "tblEvento.updatedRow.ativo",
       "tblEvento.updatedRow.datacricao",
-      "tblEvento.updatedRow.horaevento",
       "tblEvento.updatedRow.id",
       "tblEvento.updatedRow.nomeevento"
     ],
@@ -46,9 +45,9 @@
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2024-01-23T23:22:18Z"
+    "createdAt": "2024-01-28T22:05:55Z"
   },
   "id": "Cadastro de evento e sessão_Update_public_evento1",
   "deleted": false,
-  "gitSyncId": "654e122ffef2ef2f47f0e3de_65b04a2a501b0e660571eb63"
+  "gitSyncId": "65b056cc501b0e660571ebca_65b6cfc3f9148d10ca2566bf"
 }

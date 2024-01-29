@@ -9,7 +9,7 @@
           "mobileBottomRow": 790,
           "widgetName": "MainContainer",
           "topRow": 0,
-          "bottomRow": 612,
+          "bottomRow": 790,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
@@ -33,15 +33,15 @@
             {
               "children": [
                 {
-                  "id": "rcw0rsfrnk",
-                  "align": "center"
+                  "id": "1hx1fv7nlt",
+                  "align": "start"
                 }
               ]
             },
             {
               "children": [
                 {
-                  "id": "h5178ukmgs",
+                  "id": "7dos5lfaud",
                   "align": "start"
                 }
               ]
@@ -88,16 +88,6 @@
               "pluginType": "DB",
               "jsonPathKeys": [
                 "tblEvento.searchText"
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "Cadastro de evento e sessão_Total_record_public_sessao1",
-              "name": "Total_record_public_sessao1",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [
-                "tblSessao.searchText"
               ],
               "timeoutInMillisecond": 10000
             }

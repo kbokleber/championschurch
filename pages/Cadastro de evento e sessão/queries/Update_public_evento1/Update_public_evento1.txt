@@ -1,1 +1,1 @@
-UPDATE public.evento SET "datacricao"= '{{tblEvento.updatedRow.datacricao}}', "nomeevento"= '{{tblEvento.updatedRow.nomeevento}}', "horaevento"= '{{tblEvento.updatedRow.horaevento}}', "ativo"= '{{tblEvento.updatedRow.ativo}}' WHERE "id"= {{tblEvento.updatedRow.id}};
+UPDATE public.evento SET "datacricao"= '{{tblEvento.updatedRow.datacricao}}', "nomeevento"= '{{tblEvento.updatedRow.nomeevento}}', "ativo"= '{{tblEvento.updatedRow.ativo}}' WHERE "id"= {{tblEvento.updatedRow.id}};

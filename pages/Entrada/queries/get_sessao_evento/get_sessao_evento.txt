@@ -1,0 +1,5 @@
+SELECT s.id, s.nomesessao || ' dia ' || to_char(s.data,'DD/MM/YYYY') || ' das ' || to_char(s.horainicio,'HH24:MI') || ' às ' || to_char(s.horafim,'HH24:MI') as sessao
+FROM 
+public."sessao" s
+LEFT JOIN public.evento e ON s.evento_id = e.id
+WHERE e.id = {{selectEvento.selectedOptionValue}};

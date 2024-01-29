@@ -1,1 +1,1 @@
-INSERT INTO public.evento ("datacricao","nomeevento","horaevento","ativo") VALUES ('{{(tblEvento.newRow || {}).datacricao}}','{{(tblEvento.newRow || {}).nomeevento}}','{{(tblEvento.newRow || {}).horaevento}}','{{(tblEvento.newRow || {}).ativo}}')
+INSERT INTO public.evento ("nomeevento","ativo") VALUES ('{{(tblEvento.newRow || {}).nomeevento}}','{{(tblEvento.newRow || {}).ativo}}')

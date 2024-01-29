@@ -1,0 +1,1 @@
+UPDATE public.inscricao SET "entrada" = false, "dataentrada" = null where id = {{noEvento.selectedRow.id}}

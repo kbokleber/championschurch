@@ -25,7 +25,7 @@
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "Confirma novo cadastro",
+    "text": "Nova inscrição",
     "key": "tp6mmt23ej",
     "flexVerticalAlignment": "end",
     "isDeprecated": false,

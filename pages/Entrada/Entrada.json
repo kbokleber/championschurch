@@ -9,7 +9,7 @@
           "mobileBottomRow": 2554.0000000000005,
           "widgetName": "MainContainer",
           "topRow": 0,
-          "bottomRow": 865,
+          "bottomRow": 865.0000000000009,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
@@ -76,21 +76,33 @@
         "layoutOnLoadActions": [
           [
             {
+              "id": "Entrada_get_eventos_ativos",
+              "name": "get_eventos_ativos",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            },
+            {
               "id": "Entrada_inscricaovencedores_entrada",
               "name": "inscricaovencedores_entrada",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [
-                "TodosCadastros.selectedRow.id"
+                "tblInscritos.selectedRow.id"
               ],
               "timeoutInMillisecond": 10000
-            },
+            }
+          ],
+          [
             {
-              "id": "Entrada_retorna_eventos_ativos",
-              "name": "retorna_eventos_ativos",
+              "id": "Entrada_get_sessao_evento",
+              "name": "get_sessao_evento",
               "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [],
+              "pluginType": "DB",
+              "jsonPathKeys": [
+                "selectEvento.selectedOptionValue"
+              ],
               "timeoutInMillisecond": 10000
             }
           ],
@@ -100,6 +112,16 @@
               "name": "inscricaovencedores_list",
               "confirmBeforeExecute": false,
               "pluginType": "API",
+              "jsonPathKeys": [
+                "selectEvento.selectedOptionValue"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Entrada_lista_inscritos_evento",
+              "name": "lista_inscritos_evento",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
               "jsonPathKeys": [
                 "selectEvento.selectedOptionValue"
               ],

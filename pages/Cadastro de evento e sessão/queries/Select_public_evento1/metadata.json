@@ -26,7 +26,7 @@
         }
       ]
     },
-    "executeOnLoad": true,
+    "executeOnLoad": false,
     "dynamicBindingPathList": [
       {
         "key": "body"
@@ -46,9 +46,9 @@
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2024-01-23T23:22:16Z"
+    "createdAt": "2024-01-28T22:05:54Z"
   },
   "id": "Cadastro de evento e sessão_Select_public_evento1",
   "deleted": false,
-  "gitSyncId": "654e122ffef2ef2f47f0e3de_65b04a284b703a552d185bce"
+  "gitSyncId": "65b056cc501b0e660571ebca_65b6cfc27f37074a84b3a6d5"
 }

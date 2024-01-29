@@ -3,8 +3,7 @@ SELECT
 FROM
   public.sessao
 WHERE
-  "nomesessao" ilike '%{{tblSessao.searchText}}%' 
-	AND "evento_id" = {{tblEvento.selectedRow.id}}
+  "nomesessao" ilike '%{{tblSessao.searchText}}%' AND "evento_id" = {{tblEvento.selectedRow.id}}
 ORDER BY
   "{{tblSessao.sortOrder.column || 'id'}}" {{tblSessao.sortOrder.order !== "desc" ? "" : "DESC"}}
 LIMIT
