@@ -1,5 +1,4 @@
 {
-    "mobileBottomRow": 4,
     "widgetName": "txtConfirmaSaida",
     "displayName": "Text",
     "iconSVG": "https://appcdn.appsmith.com/static/media/icon.a47d6d5dbbb718c4dc4b2eb4f218c1b7.svg",
@@ -12,7 +11,6 @@
     "bottomRow": 4,
     "type": "TEXT_WIDGET",
     "hideCard": false,
-    "mobileRightColumn": 64,
     "animateLoading": true,
     "overflow": "NONE",
     "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
@@ -27,7 +25,6 @@
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
     "text": "Confirmar saída\n",
     "key": "juuh7145y9",
-    "flexVerticalAlignment": "end",
     "isDeprecated": false,
     "rightColumn": 32,
     "textAlign": "LEFT",
@@ -45,12 +42,8 @@
     ],
     "renderMode": "CANVAS",
     "isLoading": false,
-    "mobileTopRow": 0,
-    "responsiveBehavior": "fill",
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "mobileLeftColumn": 0,
     "maxDynamicHeight": 9000,
     "fontSize": "1.25rem",
-    "alignment": "center",
     "minDynamicHeight": 4
 }

@@ -1,9 +1,7 @@
 {
     "mobileWidthInPercentage": 0,
     "boxShadow": "none",
-    "mobileBottomRow": 133.39999999999998,
     "widgetName": "modal_Confirma_entradaQRCODE",
-    "widthInPercentage": 0,
     "isCanvas": true,
     "displayName": "Modal",
     "iconSVG": "https://appcdn.appsmith.com/static/media/icon.b374721fa8e1aeab7cf326c2d865506f.svg",
@@ -12,16 +10,16 @@
         "popup",
         "notification"
     ],
-    "topRow": 87.70000000000009,
-    "bottomRow": 111.3000000000001,
+    "topRow": 88.1000000000001,
+    "bottomRow": 25,
     "parentRowSpace": 1,
     "type": "MODAL_WIDGET",
     "hideCard": false,
     "shouldScrollContents": true,
-    "mobileRightColumn": 32,
-    "minHeight": 240,
+    "minHeight": 250,
     "animateLoading": true,
     "parentColumnSpace": 1,
+    "dynamicTriggerPathList": [],
     "leftColumn": 32,
     "dynamicBindingPathList": [{"key": "borderRadius"}],
     "children": [{
@@ -30,7 +28,7 @@
         "widgetName": "Canvas1Copy",
         "displayName": "Canvas",
         "topRow": 0,
-        "bottomRow": 230,
+        "bottomRow": 250,
         "parentRowSpace": 1,
         "type": "CANVAS_WIDGET",
         "canExtend": true,
@@ -38,14 +36,14 @@
         "shouldScrollContents": false,
         "minHeight": 200,
         "mobileRightColumn": 0,
-        "useAutoLayout": true,
+        "useAutoLayout": false,
         "parentColumnSpace": 1,
         "leftColumn": 0,
         "dynamicBindingPathList": [
             {"key": "borderRadius"},
             {"key": "boxShadow"}
         ],
-        "positioning": "vertical",
+        "positioning": "fixed",
         "isDisabled": false,
         "key": "rdg2i74qvh",
         "isDeprecated": false,
@@ -60,84 +58,26 @@
         "renderMode": "CANVAS",
         "isLoading": false,
         "mobileTopRow": 0,
-        "responsiveBehavior": "fill",
         "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
         "mobileLeftColumn": 0,
         "maxDynamicHeight": 9000,
-        "minDynamicHeight": 4,
-        "flexLayers": [
-            {"children": [
-                {
-                    "id": "lzjnczvpzc",
-                    "align": "center"
-                },
-                {
-                    "id": "gh6hnik04x",
-                    "align": "center"
-                }
-            ]},
-            {"children": [
-                {
-                    "id": "ke7ictvlxk",
-                    "align": "center"
-                },
-                {
-                    "id": "mb7twfzu8k",
-                    "align": "center"
-                }
-            ]},
-            {"children": [
-                {
-                    "id": "sax2vuc7t4",
-                    "align": "end"
-                },
-                {
-                    "id": "3me2ymexus",
-                    "align": "end"
-                },
-                {
-                    "id": "at2yre2ydr",
-                    "align": "end"
-                },
-                {
-                    "id": "3wmdntbo1v",
-                    "align": "end"
-                }
-            ]},
-            {"children": [
-                {
-                    "id": "lspqrajre2",
-                    "align": "start"
-                },
-                {
-                    "id": "8lnqtujun1",
-                    "align": "start"
-                },
-                {
-                    "id": "u7wiiaufk3",
-                    "align": "start"
-                }
-            ]}
-        ]
+        "minDynamicHeight": 4
     }],
     "key": "oa6l5dby53",
-    "height": 238,
+    "height": 250,
     "isDeprecated": false,
     "rightColumn": 32,
     "detachFromLayout": true,
     "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "9rn2l4ugcd",
-    "canOutsideClickClose": true,
+    "canOutsideClickClose": false,
     "canEscapeKeyClose": true,
     "version": 2,
     "parentId": "0",
     "tags": ["Layout"],
     "renderMode": "CANVAS",
     "isLoading": false,
-    "mobileTopRow": 81.19999999999999,
-    "responsiveBehavior": "hug",
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "mobileLeftColumn": 32,
     "maxDynamicHeight": 9000,
     "width": 378,
     "minDynamicHeight": 8

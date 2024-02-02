@@ -1,1 +1,0 @@
-select MAX(CASE WHEN cast(numeroincricao as text) LIKE '1%' THEN numeroincricao ELSE '1' END) from public.inscricao i where evento_id = {{selectEvento.selectedOptionValue}};

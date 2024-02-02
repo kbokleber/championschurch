@@ -1,5 +1,4 @@
 {
-    "mobileBottomRow": 13.600000000000001,
     "widgetName": "lblNumeroInscricao",
     "displayName": "Text",
     "iconSVG": "https://appcdn.appsmith.com/static/media/icon.a47d6d5dbbb718c4dc4b2eb4f218c1b7.svg",
@@ -13,7 +12,6 @@
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,
-    "mobileRightColumn": 64,
     "animateLoading": true,
     "overflow": "NONE",
     "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
@@ -29,7 +27,6 @@
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
     "text": "Nº Inscrição",
     "key": "juuh7145y9",
-    "flexVerticalAlignment": "end",
     "isDeprecated": false,
     "rightColumn": 32,
     "textAlign": "LEFT",
@@ -47,14 +44,10 @@
     ],
     "renderMode": "CANVAS",
     "isLoading": false,
-    "mobileTopRow": 9.600000000000001,
-    "responsiveBehavior": "fill",
-    "originalTopRow": 7,
+    "originalTopRow": 5.2,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "mobileLeftColumn": 0,
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 11,
+    "originalBottomRow": 9.200000000000728,
     "fontSize": "1rem",
-    "alignment": "start",
     "minDynamicHeight": 4
 }

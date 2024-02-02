@@ -1,5 +1,4 @@
 {
-    "mobileBottomRow": 8.8,
     "widgetName": "Text4Copy",
     "displayName": "Text",
     "iconSVG": "https://appcdn.appsmith.com/static/media/icon.a47d6d5dbbb718c4dc4b2eb4f218c1b7.svg",
@@ -8,11 +7,10 @@
         "paragraph",
         "label"
     ],
-    "topRow": 5.2,
-    "bottomRow": 9.2,
+    "topRow": 8,
+    "bottomRow": 13,
     "type": "TEXT_WIDGET",
     "hideCard": false,
-    "mobileRightColumn": 64,
     "animateLoading": true,
     "overflow": "NONE",
     "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
@@ -28,7 +26,6 @@
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
     "text": "{{ lista_inscritos_evento.data.filter(obj => obj.entrada == false).length }}",
     "key": "1xld8g61n7",
-    "flexVerticalAlignment": "end",
     "isDeprecated": false,
     "rightColumn": 64,
     "textAlign": "CENTER",
@@ -46,14 +43,10 @@
     ],
     "renderMode": "CANVAS",
     "isLoading": false,
-    "mobileTopRow": 4.8,
-    "responsiveBehavior": "fill",
     "originalTopRow": 8,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "mobileLeftColumn": 0,
     "maxDynamicHeight": 9000,
     "originalBottomRow": 13,
     "fontSize": "1.875rem",
-    "alignment": "end",
     "minDynamicHeight": 4
 }

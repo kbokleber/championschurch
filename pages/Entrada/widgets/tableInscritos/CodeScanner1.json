@@ -1,7 +1,6 @@
 {
     "scannerLayout": "ALWAYS_ON",
     "boxShadow": "none",
-    "mobileBottomRow": 33,
     "widgetName": "CodeScanner1",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
     "dynamicPropertyPathList": [],
@@ -18,7 +17,6 @@
     "parentRowSpace": 10,
     "type": "CODE_SCANNER_WIDGET",
     "hideCard": false,
-    "mobileRightColumn": 64,
     "animateLoading": true,
     "parentColumnSpace": 19.451904296875,
     "dynamicTriggerPathList": [{"key": "onCodeDetected"}],
@@ -28,7 +26,6 @@
         {"key": "borderRadius"}
     ],
     "isDisabled": false,
-    "flexVerticalAlignment": "start",
     "key": "hu6qne9ruv",
     "isRequired": false,
     "isDeprecated": false,
@@ -43,11 +40,7 @@
     "tags": ["External"],
     "renderMode": "CANVAS",
     "isLoading": false,
-    "mobileTopRow": 0,
-    "responsiveBehavior": "fill",
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "mobileLeftColumn": 0,
     "iconAlign": "left",
-    "placement": "CENTER",
-    "alignment": "start"
+    "placement": "CENTER"
 }

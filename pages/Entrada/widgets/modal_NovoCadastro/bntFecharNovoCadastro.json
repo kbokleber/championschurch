@@ -1,7 +1,6 @@
 {
     "resetFormOnClick": true,
     "boxShadow": "none",
-    "mobileBottomRow": 40.000000000000014,
     "widgetName": "bntFecharNovoCadastro",
     "onClick": "{{closeModal('modal_NovoCadastro').then(() => {}).catch(() => {});}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
@@ -16,7 +15,6 @@
     "bottomRow": 30,
     "type": "BUTTON_WIDGET",
     "hideCard": false,
-    "mobileRightColumn": 23.813953488372093,
     "animateLoading": true,
     "dynamicTriggerPathList": [{"key": "onClick"}],
     "leftColumn": 0,
@@ -27,9 +25,8 @@
     "text": "Fechar",
     "isDisabled": false,
     "key": "9wyyxyafpq",
-    "flexVerticalAlignment": "end",
     "isDeprecated": false,
-    "rightColumn": 13.91304347826087,
+    "rightColumn": 13,
     "isDefaultClickDisabled": true,
     "widgetId": "es747p2xt1",
     "buttonStyle": "PRIMARY",
@@ -41,14 +38,10 @@
     "tags": ["Buttons"],
     "renderMode": "CANVAS",
     "isLoading": false,
-    "mobileTopRow": 36.000000000000014,
-    "responsiveBehavior": "hug",
     "originalTopRow": 23,
     "disabledWhenInvalid": false,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "mobileLeftColumn": 0,
     "originalBottomRow": 27,
     "buttonVariant": "SECONDARY",
-    "placement": "CENTER",
-    "alignment": "start"
+    "placement": "CENTER"
 }

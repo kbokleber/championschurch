@@ -1,7 +1,6 @@
 {
     "resetFormOnClick": true,
     "boxShadow": "none",
-    "mobileBottomRow": 32.800000000000004,
     "widgetName": "bnt_ConfirmarSaida",
     "onClick": "{{update_saida_manual.run().then(() => {\n  lista_inscritos_evento.run();\n  closeModal('modal_Confirma_saida');\n}).catch(() => {\n  showAlert('Falha ao gravar!!', '');\n});}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
@@ -15,10 +14,9 @@
     "bottomRow": 19.6,
     "type": "BUTTON_WIDGET",
     "hideCard": false,
-    "mobileRightColumn": 64,
     "animateLoading": true,
     "dynamicTriggerPathList": [{"key": "onClick"}],
-    "leftColumn": 45.604790419161674,
+    "leftColumn": 45,
     "dynamicBindingPathList": [
         {"key": "buttonColor"},
         {"key": "borderRadius"}
@@ -26,7 +24,6 @@
     "text": "Confirmar",
     "isDisabled": false,
     "key": "sc9320tif4",
-    "flexVerticalAlignment": "end",
     "isDeprecated": false,
     "rightColumn": 64,
     "isDefaultClickDisabled": true,
@@ -41,15 +38,11 @@
     "tags": ["Buttons"],
     "renderMode": "CANVAS",
     "isLoading": false,
-    "mobileTopRow": 28.800000000000004,
-    "responsiveBehavior": "hug",
     "originalTopRow": 19,
     "disabledWhenInvalid": false,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "mobileLeftColumn": 40.18604651162791,
     "originalBottomRow": 23,
     "buttonVariant": "PRIMARY",
     "iconAlign": "left",
-    "placement": "CENTER",
-    "alignment": "end"
+    "placement": "CENTER"
 }

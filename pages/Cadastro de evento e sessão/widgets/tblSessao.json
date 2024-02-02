@@ -33,7 +33,6 @@
     "delimiter": ",",
     "defaultSelectedRowIndex": 0,
     "showInlineEditingOptionDropdown": true,
-    "flexVerticalAlignment": "start",
     "accentColor": "{{appsmith.theme.colors.primaryColor}}",
     "isVisibleFilters": true,
     "isVisible": true,
@@ -73,8 +72,6 @@
     "columnUpdatedAt": 1706481015388,
     "primaryColumnId": "id",
     "defaultSelectedRowIndices": [0],
-    "alignment": "start",
-    "mobileBottomRow": 60,
     "widgetName": "tblSessao",
     "defaultPageSize": 0,
     "columnOrder": [
@@ -100,7 +97,6 @@
     "parentRowSpace": 10,
     "hideCard": false,
     "onAddNewRowSave": "{{Insert_public_sessao1.run(() => {\n            showAlert(\"Successfully created!\");\n            Select_public_sessao1.run()\n          }, () => {\n            showAlert(\"Unable to create!\");\n          })}}",
-    "mobileRightColumn": 64,
     "parentColumnSpace": 19.953125,
     "dynamicTriggerPathList": [
         {"key": "onPageChange"},
@@ -409,11 +405,8 @@
     "parentId": "0",
     "serverSidePaginationEnabled": true,
     "renderMode": "CANVAS",
-    "mobileTopRow": 32,
     "horizontalAlignment": "LEFT",
     "isVisibleSearch": true,
-    "responsiveBehavior": "fill",
-    "mobileLeftColumn": 0,
     "isVisiblePagination": true,
     "verticalAlignment": "CENTER"
 }

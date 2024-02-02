@@ -6,20 +6,20 @@
       {
         "viewMode": false,
         "dsl": {
-          "mobileBottomRow": 2554.0000000000005,
+          "mobileBottomRow": 2550.9999999999995,
           "widgetName": "MainContainer",
           "topRow": 0,
-          "bottomRow": 865.0000000000009,
+          "bottomRow": 900,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
           "minHeight": 1292,
-          "useAutoLayout": true,
+          "useAutoLayout": false,
           "dynamicTriggerPathList": [],
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
           "leftColumn": 0,
-          "positioning": "vertical",
+          "positioning": "fixed",
           "backgroundColor": "none",
           "rightColumn": 4896,
           "snapColumns": 64,
@@ -28,50 +28,7 @@
           "containerStyle": "none",
           "snapRows": 124,
           "version": 88,
-          "mobileTopRow": 0,
-          "responsiveBehavior": "fill",
-          "flexLayers": [
-            {
-              "children": [
-                {
-                  "id": "ievm1bqghx",
-                  "align": "start"
-                }
-              ]
-            },
-            {
-              "children": [
-                {
-                  "id": "9rn2l4ugcd",
-                  "align": "center"
-                }
-              ]
-            },
-            {
-              "children": [
-                {
-                  "id": "o0gcmpzpgy",
-                  "align": "center"
-                }
-              ]
-            },
-            {
-              "children": [
-                {
-                  "id": "unz48bx55r",
-                  "align": "center"
-                }
-              ]
-            },
-            {
-              "children": [
-                {
-                  "id": "omr3c10jxf",
-                  "align": "center"
-                }
-              ]
-            }
-          ]
+          "mobileTopRow": 0
         },
         "layoutOnLoadActions": [
           [

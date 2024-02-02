@@ -31,7 +31,6 @@
     "delimiter": ",",
     "defaultSelectedRowIndex": 0,
     "showInlineEditingOptionDropdown": true,
-    "flexVerticalAlignment": "start",
     "accentColor": "{{appsmith.theme.colors.primaryColor}}",
     "isVisibleFilters": true,
     "isVisible": true,
@@ -72,8 +71,6 @@
     "columnUpdatedAt": 1706481622339,
     "primaryColumnId": "id",
     "defaultSelectedRowIndices": [0],
-    "alignment": "start",
-    "mobileBottomRow": 26,
     "widgetName": "tblEvento",
     "defaultPageSize": 0,
     "columnOrder": [
@@ -98,7 +95,6 @@
     "parentRowSpace": 10,
     "hideCard": false,
     "onAddNewRowSave": "{{Insert_public_evento1.run(() => {\n            showAlert(\"Successfully created!\");\n            Select_public_evento1.run()\n          }, () => {\n            showAlert(\"Unable to create!\");\n          })}}",
-    "mobileRightColumn": 64,
     "parentColumnSpace": 19.78125,
     "dynamicTriggerPathList": [
         {"key": "onPageChange"},
@@ -335,11 +331,8 @@
     "parentId": "0",
     "serverSidePaginationEnabled": true,
     "renderMode": "CANVAS",
-    "mobileTopRow": -2,
     "horizontalAlignment": "LEFT",
     "isVisibleSearch": true,
-    "responsiveBehavior": "fill",
-    "mobileLeftColumn": 0,
     "isVisiblePagination": true,
     "verticalAlignment": "CENTER"
 }

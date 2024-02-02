@@ -1,5 +1,4 @@
 {
-    "mobileBottomRow": 8.8,
     "widgetName": "txtvarCodigoQrcode",
     "displayName": "Text",
     "iconSVG": "https://appcdn.appsmith.com/static/media/icon.a47d6d5dbbb718c4dc4b2eb4f218c1b7.svg",
@@ -13,7 +12,6 @@
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,
-    "mobileRightColumn": 64,
     "animateLoading": true,
     "overflow": "NONE",
     "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
@@ -30,7 +28,6 @@
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
     "text": "{{ CodeScanner1.value.replace(\".jpeg\", \"\") }}",
     "key": "p0kwie87ws",
-    "flexVerticalAlignment": "end",
     "isDeprecated": false,
     "rightColumn": 64,
     "textAlign": "CENTER",
@@ -48,14 +45,10 @@
     ],
     "renderMode": "CANVAS",
     "isLoading": false,
-    "mobileTopRow": 4.8,
-    "responsiveBehavior": "fill",
     "originalTopRow": 1,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "mobileLeftColumn": 0,
     "maxDynamicHeight": 9000,
     "originalBottomRow": 5,
     "fontSize": "1rem",
-    "alignment": "center",
     "minDynamicHeight": 4
 }

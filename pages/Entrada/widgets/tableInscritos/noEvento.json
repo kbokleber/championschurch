@@ -38,7 +38,6 @@
     "delimiter": ",",
     "defaultSelectedRowIndex": 0,
     "showInlineEditingOptionDropdown": true,
-    "flexVerticalAlignment": "start",
     "accentColor": "{{appsmith.theme.colors.primaryColor}}",
     "isVisibleFilters": true,
     "isVisible": true,
@@ -77,8 +76,6 @@
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "columnUpdatedAt": 1706495963227,
     "defaultSelectedRowIndices": [0],
-    "alignment": "start",
-    "mobileBottomRow": 30,
     "widgetName": "noEvento",
     "defaultPageSize": 0,
     "columnOrder": [
@@ -103,7 +100,6 @@
     "columnWidthMap": {"nomecompleto": 153},
     "parentRowSpace": 10,
     "hideCard": false,
-    "mobileRightColumn": 64,
     "parentColumnSpace": 19.451904296875,
     "dynamicTriggerPathList": [
         {"key": "onSort"},
@@ -431,11 +427,8 @@
     "searchKey": "",
     "parentId": "vquvr2fj3x",
     "renderMode": "CANVAS",
-    "mobileTopRow": 0,
     "horizontalAlignment": "LEFT",
     "isVisibleSearch": true,
-    "responsiveBehavior": "fill",
-    "mobileLeftColumn": 0,
     "isVisiblePagination": true,
     "cellBackground": "{{}}",
     "verticalAlignment": "CENTER"

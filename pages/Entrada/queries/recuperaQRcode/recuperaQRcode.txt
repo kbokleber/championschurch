@@ -1,0 +1,1 @@
+SELECT * FROM public."inscricao" where submissionid = {{appsmith.store.qrcode}}; 

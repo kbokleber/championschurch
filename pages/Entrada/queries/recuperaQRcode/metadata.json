@@ -2,7 +2,7 @@
   "pluginType": "DB",
   "pluginId": "postgres-plugin",
   "unpublishedAction": {
-    "name": "max_inscricao",
+    "name": "recuperaQRcode",
     "datasource": {
       "name": "Championschurch",
       "pluginId": "postgres-plugin",
@@ -18,7 +18,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "select MAX(CASE WHEN cast(numeroincricao as text) LIKE '1%' THEN numeroincricao ELSE '1' END) from public.inscricao i where evento_id = {{selectEvento.selectedOptionValue}};",
+      "body": "SELECT * FROM public.\"inscricao\" where submissionid = {{appsmith.store.qrcode}}; ",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -36,15 +36,15 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "selectEvento.selectedOptionValue"
+      "appsmith.store.qrcode"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2024-01-29T02:14:49Z"
+    "createdAt": "2024-02-01T22:08:25Z"
   },
-  "id": "Entrada_max_inscricao",
+  "id": "Entrada_recuperaQRcode",
   "deleted": false,
-  "gitSyncId": "65b056cc501b0e660571ebca_65b70a1946843965c6422770"
+  "gitSyncId": "65b056cc501b0e660571ebca_65bc1659f10a9c2d1f8523d8"
 }
