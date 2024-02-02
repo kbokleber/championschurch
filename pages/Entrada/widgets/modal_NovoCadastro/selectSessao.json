@@ -9,9 +9,9 @@
     "iconSVG": "https://appcdn.appsmith.com/static/media/icon.a7b19dc8b31d68fcff57f1d2c0084a18.svg",
     "displayName": "Select",
     "labelText": "Sessão",
-    "topRow": 18.2,
+    "topRow": 18.19999999999927,
     "searchTags": ["dropdown"],
-    "bottomRow": 24.8,
+    "bottomRow": 24.799999999998544,
     "parentRowSpace": 10,
     "labelWidth": 5,
     "type": "SELECT_WIDGET",
@@ -52,7 +52,9 @@
     "labelAlignment": "left",
     "renderMode": "CANVAS",
     "optionLabel": "sessao",
+    "originalTopRow": 18.2,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "maxDynamicHeight": 9000,
+    "originalBottomRow": 24.799999999999272,
     "minDynamicHeight": 4
 }

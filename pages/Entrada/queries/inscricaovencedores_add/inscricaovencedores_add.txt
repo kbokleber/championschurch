@@ -1,5 +1,0 @@
-{
-  "nomecompleto": {{input_nome.text}},
-  "telefone": {{input_telefone.value}},
-  "evento_id": {{selectEvento.selectedOptionValue}}
-}

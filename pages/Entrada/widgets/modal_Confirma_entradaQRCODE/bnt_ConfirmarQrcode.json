@@ -1,7 +1,7 @@
 {
     "resetFormOnClick": true,
     "boxShadow": "none",
-    "onClick": "{{inscricaovencedores_entrada_qr.run({\n  \"id\": \"{{inscricaovencedores_list.data.find(x => x.submissionid === appsmith.store.qrcode && x.evento[0].id === 2).id}}\"\n}).then(() => {\n  showAlert('Entrada efetuada com sucesso!', 'info');\n  inscricaovencedores_list.run();\n  closeModal('modal_Confirma_entradaQRCODE');\n});}}",
+    "onClick": "{{update_entrada_QRcode.run().then(() => {\n  lista_inscritos_evento.run();\n  showAlert('Entrada efetuada com sucesso!', 'success');\n  closeModal('modal_Confirma_entradaQRCODE');\n});}}",
     "widgetName": "bnt_ConfirmarQrcode",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
     "dynamicPropertyPathList": [{"key": "isDisabled"}],
@@ -24,7 +24,7 @@
         {"key": "isDisabled"}
     ],
     "text": "Confirmar",
-    "isDisabled": "{{ inscricaovencedores_list.data.find(x => x.submissionid === appsmith.store.qrcode && x.evento_id === selectEvento.selectedOptionValue).entrada\n}}",
+    "isDisabled": "{{lista_inscritos_evento.data.find(x => x.submissionid === appsmith.store.qrcode && x.evento_id === selectEvento.selectedOptionValue).entrada}}",
     "key": "sc9320tif4",
     "isDeprecated": false,
     "rightColumn": 64,

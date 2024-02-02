@@ -17,7 +17,7 @@
     "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
     "parentColumnSpace": 6.9375,
     "dynamicTriggerPathList": [],
-    "leftColumn": 16,
+    "leftColumn": 15,
     "dynamicBindingPathList": [
         {"key": "truncateButtonColor"},
         {"key": "fontFamily"},
@@ -29,7 +29,7 @@
     "text": "{{lista_inscritos_evento.data.find(x => x.submissionid === appsmith.store.qrcode && x.evento_id === selectEvento.selectedOptionValue).numeroinscricao}}",
     "key": "juuh7145y9",
     "isDeprecated": false,
-    "rightColumn": 37,
+    "rightColumn": 63,
     "textAlign": "LEFT",
     "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "3me2ymexus",

@@ -9,7 +9,7 @@
           "mobileBottomRow": 2550.9999999999995,
           "widgetName": "MainContainer",
           "topRow": 0,
-          "bottomRow": 900,
+          "bottomRow": 540,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
@@ -39,16 +39,6 @@
               "pluginType": "DB",
               "jsonPathKeys": [],
               "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "Entrada_inscricaovencedores_entrada",
-              "name": "inscricaovencedores_entrada",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [
-                "tblInscritos.selectedRow.id"
-              ],
-              "timeoutInMillisecond": 10000
             }
           ],
           [
@@ -64,16 +54,6 @@
             }
           ],
           [
-            {
-              "id": "Entrada_inscricaovencedores_list",
-              "name": "inscricaovencedores_list",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [
-                "selectEvento.selectedOptionValue"
-              ],
-              "timeoutInMillisecond": 10000
-            },
             {
               "id": "Entrada_lista_inscritos_evento",
               "name": "lista_inscritos_evento",

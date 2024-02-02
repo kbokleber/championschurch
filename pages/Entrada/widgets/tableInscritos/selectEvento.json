@@ -57,6 +57,6 @@
     "optionLabel": "label",
     "originalTopRow": 4,
     "maxDynamicHeight": 9000,
-    "onOptionChange": "{{inscricaovencedores_list.run();\nget_sessao_evento.run();\nlista_inscritos_evento.run()}}",
+    "onOptionChange": "{{lista_inscritos_evento.run();\nget_sessao_evento.run();}}",
     "minDynamicHeight": 4
 }

@@ -16,7 +16,7 @@
     "type": "MODAL_WIDGET",
     "hideCard": false,
     "shouldScrollContents": true,
-    "minHeight": 270,
+    "minHeight": 319.9999999999927,
     "animateLoading": true,
     "parentColumnSpace": 19.5,
     "dynamicTriggerPathList": [{"key": "onClose"}],

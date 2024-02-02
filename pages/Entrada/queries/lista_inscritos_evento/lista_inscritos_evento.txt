@@ -1,1 +1,16 @@
-SELECT * FROM public."inscricao" where evento_id = {{selectEvento.selectedOptionValue}};
+select
+i.id,
+i.submissionid,
+i.numeroinscricao,
+i.nomecompleto,
+i.telefone,
+e.nomeevento,
+to_char(s."data",'DD/MM/YYYY') as data, 
+s.nomesessao,
+to_char(s.horainicio,'HH24:MI') as horainicio,
+to_char(s.horafim,'HH24:MI') as horafim,
+i.entrada
+from public."inscricao" i 
+join public."evento" e on i.evento_id = e.id 
+join public."sessao" s on i.sessao_id = s.id
+where i.evento_id = {{selectEvento.selectedOptionValue}};

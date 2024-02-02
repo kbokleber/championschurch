@@ -18,7 +18,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "SELECT * FROM public.\"inscricao\" where evento_id = {{selectEvento.selectedOptionValue}};",
+      "body": "select\ni.id,\ni.submissionid,\ni.numeroinscricao,\ni.nomecompleto,\ni.telefone,\ne.nomeevento,\nto_char(s.\"data\",'DD/MM/YYYY') as data, \ns.nomesessao,\nto_char(s.horainicio,'HH24:MI') as horainicio,\nto_char(s.horafim,'HH24:MI') as horafim,\ni.entrada\nfrom public.\"inscricao\" i \njoin public.\"evento\" e on i.evento_id = e.id \njoin public.\"sessao\" s on i.sessao_id = s.id\nwhere i.evento_id = {{selectEvento.selectedOptionValue}};",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {

@@ -1,3 +1,0 @@
-{
-  "idevento": {{selectEvento.selectedOptionValue}}
-}
