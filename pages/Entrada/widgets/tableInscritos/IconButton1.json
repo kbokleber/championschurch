@@ -10,7 +10,7 @@
         "submit"
     ],
     "topRow": 0,
-    "bottomRow": 4.1,
+    "bottomRow": 4,
     "tooltip": "Cadastrar pessoa",
     "parentRowSpace": 10,
     "type": "ICON_BUTTON_WIDGET",
