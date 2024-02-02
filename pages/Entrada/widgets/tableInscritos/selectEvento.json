@@ -45,7 +45,7 @@
     "labelPosition": "Top",
     "sourceData": "{{get_eventos_ativos.data.map( (obj) =>{ return  {'label': obj.nomeevento, 'value': obj.id } })}}",
     "key": "i5hr41biwl",
-    "labelTextSize": "0.875rem",
+    "labelTextSize": "1rem",
     "isDeprecated": false,
     "rightColumn": 64,
     "widgetId": "0ad30by55f",
