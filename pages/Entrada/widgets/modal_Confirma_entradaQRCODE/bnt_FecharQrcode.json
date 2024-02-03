@@ -2,7 +2,7 @@
     "resetFormOnClick": true,
     "boxShadow": "none",
     "widgetName": "bnt_FecharQrcode",
-    "onClick": "{{closeModal('modal_Confirma_entradaQRCODE').then(() => {\n  inscricaovencedores_list.run();\n});}}",
+    "onClick": "{{closeModal('modal_Confirma_entradaQRCODE').then(() => {\n  lista_inscritos_evento.run();\n});}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
     "displayName": "Button",
     "iconSVG": "https://appcdn.appsmith.com/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",
