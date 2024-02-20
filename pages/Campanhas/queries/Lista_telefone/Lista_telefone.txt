@@ -1,0 +1,1 @@
+select distinct(telefone) from inscricao i where evento_id = {{listEventos_ativos.selectedOptionValue}} order by telefone;

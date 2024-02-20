@@ -7,6 +7,10 @@
     {
       "id": "Cadastro de evento e sessão",
       "isDefault": false
+    },
+    {
+      "id": "Campanhas",
+      "isDefault": false
     }
   ],
   "viewMode": false,

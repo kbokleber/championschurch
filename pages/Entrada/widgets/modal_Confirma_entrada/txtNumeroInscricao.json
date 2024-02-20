@@ -29,7 +29,7 @@
     "text": "{{tblInscritos.selectedRow.numeroinscricao}}",
     "key": "juuh7145y9",
     "isDeprecated": false,
-    "rightColumn": 32,
+    "rightColumn": 16,
     "textAlign": "CENTER",
     "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "ny5razs1vo",

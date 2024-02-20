@@ -1,0 +1,4 @@
+{
+	"data": {{selectCelularesEvento}},
+	"evento": {{get_eventos_ativos}}
+}
