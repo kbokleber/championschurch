@@ -4,7 +4,7 @@
     "isVisibleDownload": true,
     "iconSVG": "https://appcdn.appsmith.com/static/media/icon.e6911f8bb94dc6c4a102a74740c41763.svg",
     "topRow": 27,
-    "isSortable": false,
+    "isSortable": true,
     "type": "TABLE_WIDGET_V2",
     "inlineEditingSaveOption": "ROW_LEVEL",
     "animateLoading": true,
@@ -95,7 +95,7 @@
     "displayName": "Table",
     "bottomRow": 81.99999999991269,
     "columnWidthMap": {
-        "numeroinscricao": 90,
+        "numeroinscricao": 178,
         "submissionid": 124,
         "nomecompleto": 142,
         "data": 106,
