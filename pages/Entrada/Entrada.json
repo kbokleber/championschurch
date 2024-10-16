@@ -1,83 +1,37 @@
 {
+  "gitSyncId": "654e122ffef2ef2f47f0e3de_654e122ffef2ef2f47f0e3e0",
   "unpublishedPage": {
-    "name": "Entrada",
-    "slug": "entrada",
+    "isHidden": false,
     "layouts": [
       {
-        "viewMode": false,
         "dsl": {
-          "mobileBottomRow": 2550.9999999999995,
-          "widgetName": "MainContainer",
-          "topRow": 0,
-          "bottomRow": 1292,
-          "parentRowSpace": 1,
-          "type": "CANVAS_WIDGET",
-          "canExtend": true,
-          "minHeight": 1292,
-          "useAutoLayout": false,
-          "dynamicTriggerPathList": [],
-          "parentColumnSpace": 1,
-          "dynamicBindingPathList": [],
-          "leftColumn": 0,
-          "positioning": "fixed",
           "backgroundColor": "none",
+          "bottomRow": 1292,
+          "canExtend": true,
+          "containerStyle": "none",
+          "detachFromLayout": true,
+          "dynamicBindingPathList": [],
+          "dynamicTriggerPathList": [],
+          "leftColumn": 0,
+          "minHeight": 1292,
+          "mobileBottomRow": 2550.9999999999995,
+          "mobileTopRow": 0,
+          "parentColumnSpace": 1,
+          "parentRowSpace": 1,
+          "positioning": "fixed",
           "rightColumn": 4896,
           "snapColumns": 64,
-          "detachFromLayout": true,
-          "widgetId": "0",
-          "containerStyle": "none",
           "snapRows": 124,
-          "version": 89,
-          "mobileTopRow": 0
-        },
-        "layoutOnLoadActions": [
-          [
-            {
-              "id": "Entrada_get_eventos_ativos",
-              "name": "get_eventos_ativos",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [],
-              "timeoutInMillisecond": 10000
-            }
-          ],
-          [
-            {
-              "id": "Entrada_get_sessao_evento",
-              "name": "get_sessao_evento",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [
-                "selectEvento.selectedOptionValue"
-              ],
-              "timeoutInMillisecond": 10000
-            }
-          ],
-          [
-            {
-              "id": "Entrada_lista_inscritos_evento",
-              "name": "lista_inscritos_evento",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [
-                "selectEvento.selectedOptionValue"
-              ],
-              "timeoutInMillisecond": 10000
-            }
-          ]
-        ],
-        "layoutOnLoadActionErrors": [],
-        "validOnPageLoadActions": true,
-        "id": "Entrada",
-        "deleted": false,
-        "policies": [],
-        "userPermissions": []
+          "topRow": 0,
+          "type": "CANVAS_WIDGET",
+          "useAutoLayout": false,
+          "version": 90,
+          "widgetId": "0",
+          "widgetName": "MainContainer"
+        }
       }
     ],
-    "userPermissions": [],
-    "policies": [],
-    "isHidden": false
-  },
-  "deleted": false,
-  "gitSyncId": "654e122ffef2ef2f47f0e3de_654e122ffef2ef2f47f0e3e0"
+    "name": "Entrada",
+    "slug": "entrada"
+  }
 }

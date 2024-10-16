@@ -1,91 +1,36 @@
 {
+  "gitSyncId": "654e122ffef2ef2f47f0e3de_65b03f07165cc466aa8cd7d5",
   "unpublishedPage": {
-    "name": "Cadastro de evento e sessão",
-    "slug": "cadastro-de-evento-e-sessao",
+    "isHidden": true,
     "layouts": [
       {
-        "viewMode": false,
         "dsl": {
-          "mobileBottomRow": 790,
-          "widgetName": "MainContainer",
           "backgroundColor": "none",
-          "rightColumn": 1224,
-          "snapColumns": 64,
-          "detachFromLayout": true,
-          "widgetId": "0",
-          "topRow": 0,
           "bottomRow": 610,
-          "containerStyle": "none",
-          "snapRows": 77,
-          "parentRowSpace": 1,
-          "type": "CANVAS_WIDGET",
           "canExtend": true,
-          "version": 89,
-          "minHeight": 790,
-          "mobileTopRow": 0,
-          "useAutoLayout": false,
-          "parentColumnSpace": 1,
+          "containerStyle": "none",
+          "detachFromLayout": true,
           "dynamicBindingPathList": [],
           "leftColumn": 0,
-          "positioning": "fixed"
-        },
-        "layoutOnLoadActions": [
-          [
-            {
-              "id": "Cadastro de evento e sessão_Select_public_evento1",
-              "name": "Select_public_evento1",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [
-                "tblEvento.searchText",
-                "tblEvento.pageSize",
-                "tblEvento.sortOrder.order !== \"desc\" ? \"\" : \"DESC\"",
-                "tblEvento.sortOrder.column || 'id'",
-                "tblEvento.pageOffset"
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "Cadastro de evento e sessão_Select_public_sessao1",
-              "name": "Select_public_sessao1",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [
-                "tblSessao.searchText",
-                "tblSessao.sortOrder.order !== \"desc\" ? \"\" : \"DESC\"",
-                "tblSessao.sortOrder.column || 'id'",
-                "tblSessao.pageOffset",
-                "tblSessao.pageSize",
-                "tblEvento.selectedRow.id"
-              ],
-              "timeoutInMillisecond": 10000
-            }
-          ],
-          [
-            {
-              "id": "Cadastro de evento e sessão_Total_record_public_evento1",
-              "name": "Total_record_public_evento1",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [
-                "tblEvento.searchText"
-              ],
-              "timeoutInMillisecond": 10000
-            }
-          ]
-        ],
-        "layoutOnLoadActionErrors": [],
-        "validOnPageLoadActions": true,
-        "id": "Cadastro de evento e sessão",
-        "deleted": false,
-        "policies": [],
-        "userPermissions": []
+          "minHeight": 790,
+          "mobileBottomRow": 790,
+          "mobileTopRow": 0,
+          "parentColumnSpace": 1,
+          "parentRowSpace": 1,
+          "positioning": "fixed",
+          "rightColumn": 1224,
+          "snapColumns": 64,
+          "snapRows": 77,
+          "topRow": 0,
+          "type": "CANVAS_WIDGET",
+          "useAutoLayout": false,
+          "version": 90,
+          "widgetId": "0",
+          "widgetName": "MainContainer"
+        }
       }
     ],
-    "userPermissions": [],
-    "policies": [],
-    "isHidden": true
-  },
-  "deleted": false,
-  "gitSyncId": "654e122ffef2ef2f47f0e3de_65b03f07165cc466aa8cd7d5"
+    "name": "Cadastro de evento e sessão",
+    "slug": "cadastro-de-evento-e-sessao"
+  }
 }

@@ -1,48 +1,58 @@
 {
-    "resetFormOnClick": true,
-    "boxShadow": "none",
-    "widgetName": "bnt_Confirmar",
-    "onClick": "{{update_entrada_manual.run().then(() => {\n  closeModal('modal_Confirma_entrada');\n  lista_inscritos_evento.run();\n}).catch(() => {\n  showAlert('Falha oa gravar!!', 'error');\n});}}",
-    "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "displayName": "Button",
-    "iconSVG": "https://appcdn.appsmith.com/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",
-    "searchTags": [
-        "click",
-        "submit"
-    ],
-    "topRow": 13,
-    "bottomRow": 20,
-    "type": "BUTTON_WIDGET",
-    "hideCard": false,
-    "animateLoading": true,
-    "dynamicTriggerPathList": [{"key": "onClick"}],
-    "leftColumn": 43,
-    "dynamicBindingPathList": [
-        {"key": "buttonColor"},
-        {"key": "borderRadius"}
-    ],
-    "text": "Confirmar",
-    "isDisabled": false,
-    "key": "sc9320tif4",
-    "isDeprecated": false,
-    "rightColumn": 64,
-    "isDefaultClickDisabled": true,
-    "iconName": "floppy-disk",
-    "widgetId": "f6hsuylzuc",
-    "buttonStyle": "PRIMARY_BUTTON",
-    "minWidth": 120,
-    "isVisible": true,
-    "recaptchaType": "V3",
-    "version": 1,
-    "parentId": "cqhlwvtcgg",
-    "tags": ["Buttons"],
-    "renderMode": "CANVAS",
-    "isLoading": false,
-    "originalTopRow": 14,
-    "disabledWhenInvalid": false,
-    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "originalBottomRow": 20,
-    "buttonVariant": "PRIMARY",
-    "iconAlign": "left",
-    "placement": "CENTER"
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 20,
+  "boxShadow": "none",
+  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "buttonStyle": "PRIMARY_BUTTON",
+  "buttonVariant": "PRIMARY",
+  "disabledWhenInvalid": false,
+  "displayName": "Button",
+  "dynamicBindingPathList": [
+    {
+      "key": "buttonColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "hideCard": false,
+  "iconAlign": "left",
+  "iconName": "floppy-disk",
+  "iconSVG": "https://appcdn.appsmith.com/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",
+  "isDefaultClickDisabled": true,
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "sc9320tif4",
+  "leftColumn": 43,
+  "minWidth": 120,
+  "onClick": "{{update_entrada_manual.run().then(() => {\n  closeModal('modal_Confirma_entrada');\n  lista_inscritos_evento.run();\n}).catch(() => {\n  showAlert('Falha oa gravar!!', 'error');\n});}}",
+  "originalBottomRow": 20,
+  "originalTopRow": 14,
+  "parentId": "cqhlwvtcgg",
+  "placement": "CENTER",
+  "recaptchaType": "V3",
+  "renderMode": "CANVAS",
+  "resetFormOnClick": true,
+  "rightColumn": 64,
+  "searchTags": [
+    "click",
+    "submit"
+  ],
+  "tags": [
+    "Buttons"
+  ],
+  "text": "Confirmar",
+  "topRow": 13,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "f6hsuylzuc",
+  "widgetName": "bnt_Confirmar"
 }

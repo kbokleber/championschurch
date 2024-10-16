@@ -1,60 +1,76 @@
 {
-    "boxShadow": "0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)",
-    "widgetName": "selectEvento",
-    "isFilterable": false,
-    "dynamicPropertyPathList": [
-        {"key": "optionValue"},
-        {"key": "sourceData"}
-    ],
-    "iconSVG": "https://appcdn.appsmith.com/static/media/icon.a7b19dc8b31d68fcff57f1d2c0084a18.svg",
-    "displayName": "Select",
-    "labelText": "Selecione o evento:",
-    "topRow": 4,
-    "searchTags": ["dropdown"],
-    "bottomRow": 11,
-    "parentRowSpace": 10,
-    "labelWidth": "7",
-    "type": "SELECT_WIDGET",
-    "serverSideFiltering": false,
-    "hideCard": false,
-    "shouldScrollContents": true,
-    "defaultOptionValue": "GREEN",
-    "animateLoading": true,
-    "parentColumnSpace": 18.984375,
-    "dynamicTriggerPathList": [{"key": "onOptionChange"}],
-    "leftColumn": 0,
-    "dynamicBindingPathList": [
-        {"key": "accentColor"},
-        {"key": "borderRadius"},
-        {"key": "sourceData"}
-    ],
-    "labelPosition": "Top",
-    "placeholderText": "Escolha o evento",
-    "isDisabled": false,
-    "sourceData": "{{get_eventos_ativos.data.map( (obj) =>{ return  {'label': obj.nomeevento, 'value': obj.id } })}}",
-    "key": "i5hr41biwl",
-    "labelTextSize": "1rem",
-    "isRequired": false,
-    "isDeprecated": false,
-    "rightColumn": 64,
-    "dynamicHeight": "FIXED",
-    "accentColor": "{{appsmith.theme.colors.primaryColor}}",
-    "widgetId": "0ad30by55f",
-    "optionValue": "value",
-    "minWidth": 450,
-    "isVisible": true,
-    "version": 1,
-    "parentId": "pdz3desupa",
-    "tags": [
-        "Suggested",
-        "Select"
-    ],
-    "isLoading": false,
-    "labelAlignment": "left",
-    "renderMode": "CANVAS",
-    "optionLabel": "label",
-    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "maxDynamicHeight": 9000,
-    "onOptionChange": "{{lista_inscritos_evento.run();\nget_sessao_evento.run();}}",
-    "minDynamicHeight": 4
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 11,
+  "boxShadow": "0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)",
+  "defaultOptionValue": "GREEN",
+  "displayName": "Select",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "sourceData"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "optionValue"
+    },
+    {
+      "key": "sourceData"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onOptionChange"
+    }
+  ],
+  "hideCard": false,
+  "iconSVG": "https://appcdn.appsmith.com/static/media/icon.a7b19dc8b31d68fcff57f1d2c0084a18.svg",
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isFilterable": false,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "i5hr41biwl",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelText": "Selecione o evento:",
+  "labelTextSize": "1rem",
+  "labelWidth": "7",
+  "leftColumn": 0,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "onOptionChange": "{{lista_inscritos_evento.run();\nget_sessao_evento.run();}}",
+  "optionLabel": "label",
+  "optionValue": "value",
+  "parentColumnSpace": 18.984375,
+  "parentId": "pdz3desupa",
+  "parentRowSpace": 10,
+  "placeholderText": "Escolha o evento",
+  "renderMode": "CANVAS",
+  "rightColumn": 64,
+  "searchTags": [
+    "dropdown"
+  ],
+  "serverSideFiltering": false,
+  "shouldScrollContents": true,
+  "sourceData": "{{get_eventos_ativos.data.map( (obj) =>{ return  {'label': obj.nomeevento, 'value': obj.id } })}}",
+  "tags": [
+    "Suggested",
+    "Select"
+  ],
+  "topRow": 4,
+  "type": "SELECT_WIDGET",
+  "version": 1,
+  "widgetId": "0ad30by55f",
+  "widgetName": "selectEvento"
 }

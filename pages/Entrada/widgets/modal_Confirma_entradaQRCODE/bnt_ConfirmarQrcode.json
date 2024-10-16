@@ -1,50 +1,66 @@
 {
-    "resetFormOnClick": true,
-    "boxShadow": "none",
-    "onClick": "{{update_entrada_QRcode.run().then(() => {\n  lista_inscritos_evento.run();\n  showAlert('Entrada efetuada com sucesso!', 'success');\n  closeModal('modal_Confirma_entradaQRCODE');\n});}}",
-    "widgetName": "bnt_ConfirmarQrcode",
-    "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "dynamicPropertyPathList": [{"key": "isDisabled"}],
-    "iconSVG": "https://appcdn.appsmith.com/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",
-    "displayName": "Button",
-    "topRow": 16,
-    "searchTags": [
-        "click",
-        "submit"
-    ],
-    "bottomRow": 23,
-    "type": "BUTTON_WIDGET",
-    "hideCard": false,
-    "animateLoading": true,
-    "dynamicTriggerPathList": [{"key": "onClick"}],
-    "leftColumn": 43,
-    "dynamicBindingPathList": [
-        {"key": "buttonColor"},
-        {"key": "borderRadius"},
-        {"key": "isDisabled"}
-    ],
-    "text": "Confirmar",
-    "isDisabled": "{{lista_inscritos_evento.data.find(x => x.submissionid === appsmith.store.qrcode && x.evento_id === selectEvento.selectedOptionValue).entrada}}",
-    "key": "sc9320tif4",
-    "isDeprecated": false,
-    "rightColumn": 64,
-    "isDefaultClickDisabled": true,
-    "iconName": "floppy-disk",
-    "widgetId": "u7wiiaufk3",
-    "buttonStyle": "PRIMARY_BUTTON",
-    "minWidth": 120,
-    "isVisible": true,
-    "version": 1,
-    "recaptchaType": "V3",
-    "parentId": "u4wazwsbn7",
-    "tags": ["Buttons"],
-    "isLoading": false,
-    "renderMode": "CANVAS",
-    "originalTopRow": 16,
-    "disabledWhenInvalid": false,
-    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "originalBottomRow": 23,
-    "buttonVariant": "PRIMARY",
-    "iconAlign": "left",
-    "placement": "CENTER"
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 23,
+  "boxShadow": "none",
+  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "buttonStyle": "PRIMARY_BUTTON",
+  "buttonVariant": "PRIMARY",
+  "disabledWhenInvalid": false,
+  "displayName": "Button",
+  "dynamicBindingPathList": [
+    {
+      "key": "buttonColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "isDisabled"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "isDisabled"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "hideCard": false,
+  "iconAlign": "left",
+  "iconName": "floppy-disk",
+  "iconSVG": "https://appcdn.appsmith.com/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",
+  "isDefaultClickDisabled": true,
+  "isDeprecated": false,
+  "isDisabled": "{{lista_inscritos_evento.data.find(x => x.submissionid === appsmith.store.qrcode && x.evento_id === selectEvento.selectedOptionValue).entrada}}",
+  "isLoading": false,
+  "isVisible": true,
+  "key": "sc9320tif4",
+  "leftColumn": 43,
+  "minWidth": 120,
+  "onClick": "{{update_entrada_QRcode.run().then(() => {\n  lista_inscritos_evento.run();\n  showAlert('Entrada efetuada com sucesso!', 'success');\n  closeModal('modal_Confirma_entradaQRCODE');\n});}}",
+  "originalBottomRow": 23,
+  "originalTopRow": 16,
+  "parentId": "u4wazwsbn7",
+  "placement": "CENTER",
+  "recaptchaType": "V3",
+  "renderMode": "CANVAS",
+  "resetFormOnClick": true,
+  "rightColumn": 64,
+  "searchTags": [
+    "click",
+    "submit"
+  ],
+  "tags": [
+    "Buttons"
+  ],
+  "text": "Confirmar",
+  "topRow": 16,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "u7wiiaufk3",
+  "widgetName": "bnt_ConfirmarQrcode"
 }
